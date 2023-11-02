@@ -31,6 +31,6 @@ public class MyFirstController {
         response.put("header", header);
         response.put("data", data);
 //        response.put("url",consumerId );
-        return (ResponseEntity) ResponseEntity.internalServerError();
+        return (ResponseEntity) ResponseEntity.ok(response);
     }
 }

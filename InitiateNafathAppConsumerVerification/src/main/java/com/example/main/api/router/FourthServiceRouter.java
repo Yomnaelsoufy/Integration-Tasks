@@ -1,5 +1,7 @@
 package com.example.main.api.router;
 
+import java.sql.SQLIntegrityConstraintViolationException;
+
 import org.apache.camel.Exchange;
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;
@@ -18,12 +20,23 @@ public class FourthServiceRouter extends RouteBuilder {
 
 		getContext().getRegistry().bind("myDataSource", datasource);
 
-		from("direct:fourthService").setBody(simple(
-				"INSERT INTO nafathInfo (poinum, poitype, mobilenum) VALUES ('${header.IDNumber}', '${header.IDType}', '${header.mobileNumber}')"))
-				.log("{$body}").to("jdbc:myDataSource").log("Data inserted successfully into nafathtable")
-				.setBody(constant("{\"id\": \"1081871111\", \"action\": \"SpRequest\", \"service\":\"Login\" }"))
-				.log("fourth req: ${body}").setHeader(Exchange.HTTP_METHOD, constant("POST"))
-				.to("http://localhost:8086/v1/nafath-app/id-verification/initiate?bridgeEndpoint=true");
+		from("direct:fourthService").doTry()
+        .setBody(simple(
+            "INSERT INTO nafathInfo (id,poinum, poitype, mobilenum) VALUES (1,'${header.IDNumber}', '${header.IDType}', '${header.mobileNumber}')"))
+        .log("{$body}").to("jdbc:myDataSource").log("Data inserted successfully into nafathtable")
+        .setBody(constant("{\"id\": \"1081871111\", \"action\": \"SpRequest\", \"service\":\"Login\" }"))
+        .log("fourth req: ${body}").setHeader(Exchange.HTTP_METHOD, constant("POST"))
+        .to("http://localhost:8086/v1/nafath-app/id-verification/initiate?bridgeEndpoint=true")
+        .doCatch(SQLIntegrityConstraintViolationException.class)
+            .log("Duplicate primary key detected. Handling the exception...")
+            .to("direct:SQLError")
+        .end();
+//		from("direct:fourthService").setBody(simple(
+//				"INSERT INTO nafathInfo (id, poinum, poitype, mobilenum) VALUES (1,'${header.IDNumber}', '${header.IDType}', '${header.mobileNumber}')"))
+//				.log("{$body}").to("jdbc:myDataSource").log("Data inserted successfully into nafathtable")
+//				.setBody(constant("{\"id\": \"1081871111\", \"action\": \"SpRequest\", \"service\":\"Login\" }"))
+//				.log("fourth req: ${body}").setHeader(Exchange.HTTP_METHOD, constant("POST"))
+//				.to("http://localhost:8086/v1/nafath-app/id-verification/initiate?bridgeEndpoint=true");
 
 	}
 }

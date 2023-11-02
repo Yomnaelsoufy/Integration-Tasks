@@ -12,25 +12,14 @@ public class FirstServiceRouter extends RouteBuilder {
 
 	@Override
 	public void configure() throws Exception {
+
 		from("direct:firstService").log("My Service call Request: ${body}").process(new FirstServiceProcessor())
-				.setBody(constant("{\"verificationSource\": \"Bank\"}"))
-//            .log("first call req body: ${body}")
-			.doTry()
-//				.toD("http://localhost:8085/v1/consumers/${header.consumerId}/id-verification/validate?bridgeEndpoint=true")
-////            .log("First Api call Response: ${body}")
-//				.process(new FirstApiResponseProcessor()).choice().when(simple("${header.isTahakookVerified} == false"))
-//				.to("direct:secondService").otherwise().to("direct:fourthService").endChoice()
-			.to("direct:handleSuccessResponse")
-            .doCatch(HttpOperationFailedException.class)
-            .to("direct:handleGeneralErrorResponse")
-            .end();
-		from("direct:handleSuccessResponse")
-		.toD("http://localhost:8085/v1/consumers/${header.consumerId}/id-verification/validate?bridgeEndpoint=true")
-		.process(new FirstApiResponseProcessor())
-		.choice().when(simple("${header.isTahakookVerified} == false"))
-		.to("direct:secondService")
-		.otherwise()
-		.to("direct:fourthService")
-		.endChoice();
+				.setBody(constant("{\"verificationSource\": \"Bank\"}")).doTry().to("direct:handleSuccessResponse")
+				.doCatch(HttpOperationFailedException.class).to("direct:handleGeneralErrorResponse").end();
+
+		from("direct:handleSuccessResponse").toD(
+				"http://localhost:8085/v1/consumers/${header.consumerId}/id-verification/validate?bridgeEndpoint=true")
+				.process(new FirstApiResponseProcessor()).choice().when(simple("${header.isTahakookVerified} == false"))
+				.to("direct:secondService").otherwise().to("direct:fourthService").endChoice();
 	}
 }
