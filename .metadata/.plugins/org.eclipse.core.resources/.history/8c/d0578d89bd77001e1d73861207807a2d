@@ -1,0 +1,130 @@
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+@RequestMapping("/v1/consumers/mobile")
+public class RestControllerClass {
+
+    @PutMapping
+    public ResponseEntity<Object> putMethod() {
+        String requestId = "string";
+        String code = "string";
+        String details = "string";
+        String subCode = "string";
+        String subDetails = "string";
+
+        ResponseData responseData = new ResponseData();
+        ResponseHeader responseHeader = new ResponseHeader();
+        ResponseStatus responseStatus = new ResponseStatus();
+        SubError subError = new SubError();
+
+        subError.setCode(subCode);
+        subError.setDetails(subDetails);
+
+        responseStatus.setCode(code);
+        responseStatus.setDetails(details);
+        responseStatus.setSubErrors(new SubError[]{subError});
+
+        responseHeader.setRequestId(requestId);
+        responseHeader.setStatus(responseStatus);
+
+        responseData.setData(new Object());
+        responseData.setHeader(responseHeader);
+
+        return new ResponseEntity<>(responseData, HttpStatus.OK);
+    }
+
+    private static class ResponseData {
+        private Object data;
+        private ResponseHeader header;
+
+        public Object getData() {
+            return data;
+        }
+
+        public void setData(Object data) {
+            this.data = data;
+        }
+
+        public ResponseHeader getHeader() {
+            return header;
+        }
+
+        public void setHeader(ResponseHeader header) {
+            this.header = header;
+        }
+    }
+
+    private static class ResponseHeader {
+        private String requestId;
+        private ResponseStatus status;
+
+        public String getRequestId() {
+            return requestId;
+        }
+
+        public void setRequestId(String requestId) {
+            this.requestId = requestId;
+        }
+
+        public ResponseStatus getStatus() {
+            return status;
+        }
+
+        public void setStatus(ResponseStatus status) {
+            this.status = status;
+        }
+    }
+
+    private static class ResponseStatus {
+        private String code;
+        private String details;
+        private SubError[] subErrors;
+
+        public String getCode() {
+            return code;
+        }
+
+        public void setCode(String code) {
+            this.code = code;
+        }
+
+        public String getDetails() {
+            return details;
+        }
+
+        public void setDetails(String details) {
+            this.details = details;
+        }
+
+        public SubError[] getSubErrors() {
+            return subErrors;
+        }
+
+        public void setSubErrors(SubError[] subErrors) {
+            this.subErrors = subErrors;
+        }
+    }
+
+    private static class SubError {
+        private String code;
+        private String details;
+
+        public String getCode() {
+            return code;
+        }
+
+        public void setCode(String code) {
+            this.code = code;
+        }
+
+        public String getDetails() {
+            return details;
+        }
+
+        public void setDetails(String details) {
+            this.details = details;
+        }
+    }
+}

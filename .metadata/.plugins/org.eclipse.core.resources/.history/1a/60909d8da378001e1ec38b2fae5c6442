@@ -1,0 +1,14 @@
+package com.example.main.api.router;
+
+import org.apache.camel.builder.RouteBuilder;
+import org.springframework.stereotype.Component;
+
+@Component
+public class MainServiceProcessorRouter extends RouteBuilder {
+
+    @Override
+    public void configure() throws Exception {
+        restConfiguration().component("servlet").contextPath("/").apiContextPath("/api-docs").apiProperty("api.title", "My API").apiProperty("api.version", "1.0.0");
+        rest("/v1/consumers/id-verification/nafath-app/initiate").post().to("direct:firstService");
+    }
+}

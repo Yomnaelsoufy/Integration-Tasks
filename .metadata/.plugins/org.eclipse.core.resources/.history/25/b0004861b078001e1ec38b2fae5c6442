@@ -1,0 +1,3 @@
+camel.springboot.name=CamelRestContext
+camel.component.servlet.mapping.enabled=true
+camel.component.servlet.mapping.context-path=/v1

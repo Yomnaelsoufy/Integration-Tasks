@@ -1,0 +1,111 @@
+package com.example.fourth.api.router;
+
+import org.apache.camel.Exchange;
+import org.apache.camel.builder.RouteBuilder;
+import org.springframework.stereotype.Component;
+
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+@Component
+public class MyRestService extends RouteBuilder {
+
+	@Override
+	public void configure() throws Exception {
+		restConfiguration().component("servlet");
+		rest("/v1/consumers/id-verification/nafath-app/initiate").post().to("direct:firstService");
+
+//        from("direct:firstService")
+//                .log("HII..")
+//                .to("http://localhost:8085/v1/consumers/{consumerId}/id-verification/validate?bridgeEndpoint=true")
+//                .log("Response: ${body}")
+//                .log("${header.CamelHttpResponseCode}")
+////                .log("${body.header}")
+//                ;
+		from("direct:firstService")
+//		.log("HII..").
+		.process(exchange -> {
+			String responseBody = exchange.getIn().getBody(String.class);
+			ObjectMapper objectMapper = new ObjectMapper();
+			JsonNode jsonNode = objectMapper.readTree(responseBody);
+			String consumerId = jsonNode.get("consumerId").asText();
+			exchange.getIn().setHeader("consumerId", consumerId);
+		})
+		.toD("http://localhost:8085/v1/consumers/${header.consumerId}/id-verification/validate?bridgeEndpoint=true")
+				.process(exchange -> {
+					String responseBody = exchange.getIn().getBody(String.class);
+					ObjectMapper objectMapper = new ObjectMapper();
+					JsonNode jsonNode = objectMapper.readTree(responseBody);
+					String isTahakookVerified = jsonNode.at("/data/isTahakookVerified").asText();
+
+//					String isTahakookVerified = jsonNode.get("data").get("isTahakookVerified").asText();
+
+					String statusCode = jsonNode.at("/header/status/code").asText();
+					exchange.getIn().setHeader("ResponseStatusCode", statusCode);
+					exchange.getIn().setHeader("isTahakookVerified", isTahakookVerified);
+				})
+				.choice()
+                .when(simple("${header.CamelHttpResponseCode} == 200 && ${header.ResponseStatusCode} == 'I000000'"))
+                    .choice()
+                        .when(simple("${header.isTahakookVerified} == false"))
+                        .to("direct:secondService")
+                       .otherwise()
+                            .log("header.isTahakookVerified = true")
+                .otherwise()
+                    .log("Response Status Code: ${header.ResponseStatusCode}");
+		from("direct:secondService")
+		.setHeader(Exchange.HTTP_METHOD,constant("GET"))
+		.process(exchange -> {
+			String responseBody = exchange.getIn().getBody(String.class);
+			ObjectMapper objectMapper = new ObjectMapper();
+			JsonNode jsonNode = objectMapper.readTree(responseBody);
+			String mobileNumber = jsonNode.at("/data/mobileNumber").asText();
+			exchange.getIn().setHeader("mobileNumber", mobileNumber);
+
+			String IDNumber = jsonNode.at("/data/poi/poiNumber").asText();
+			exchange.getIn().setHeader("IDNumber", IDNumber);
+			
+
+			String IDType = jsonNode.at("/data/poi/poiType").asText();
+			exchange.getIn().setHeader("IDType", IDType);
+		})
+		.setHeader(Exchange.HTTP_QUERY,  simple("IDType=${header.IDType}&IDNumber=${header.IDNumber}&mobileNumber=${header.mobileNumber}"))
+        .to("http://localhost:7882/v1/tahaqoq/mobile-verification?bridgeEndpoint=true")
+        .process(exchange -> {
+			String responseBody = exchange.getIn().getBody(String.class);
+			ObjectMapper objectMapper = new ObjectMapper();
+			JsonNode jsonNode = objectMapper.readTree(responseBody);
+			String isOwner = jsonNode.get("body").get("isOwner").asText();
+			String statusCode = jsonNode.at("/header/status/code").asText();
+			exchange.getIn().setHeader("ResponseStatusCode", statusCode);
+			exchange.getIn().setHeader("isOwner", isOwner);
+		})
+        .choice()
+        .when(simple("${header.CamelHttpResponseCode} == 200 && ${header.ResponseStatusCode} == 'I000000' && ${header.isOwner} == true"))
+            .to("direct:thirdService")
+            .otherwise()
+            .log("Error");
+            ;
+            
+            from("direct:thirdService")
+    		.setHeader(Exchange.HTTP_METHOD,simple("PUT"))
+            .to("http://localhost:8082/v1/consumers/mobile?bridgeEndpoint=true")
+            .process(exchange -> {
+    			String responseBody = exchange.getIn().getBody(String.class);
+    			ObjectMapper objectMapper = new ObjectMapper();
+    			JsonNode jsonNode = objectMapper.readTree(responseBody);
+    			String statusCode = jsonNode.at("/header/status/code").asText();
+    			exchange.getIn().setHeader("ResponseStatusCode", statusCode);
+    		})
+            .choice()
+                .when(simple("${header.CamelHttpResponseCode} == 200 && ${header.ResponseStatusCode} == 'I000000'"))
+                    .to("direct:fourthService")
+                .otherwise()
+                    .log("error");
+            
+            from("direct:fourthService")
+    		.setHeader(Exchange.HTTP_METHOD,simple("POST"))
+            .to("http://localhost:8086/v1/nafath-app/id-verification/initiate?bridgeEndpoint=true");
+		
+	}
+}
