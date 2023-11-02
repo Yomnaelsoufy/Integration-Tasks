@@ -27,7 +27,4 @@ public class FourthServiceRouter extends RouteBuilder {
 
 	}
 }
-//            .setBody(constant("{\"id\": \"1081871111\", \"action\": \"SpRequest\", \"service\":\"Login\" }"))
-//            .log("fourth req: ${body}")    
-//            .setHeader(Exchange.HTTP_METHOD, constant("POST"))
-//            .to("http://localhost:8086/v1/nafath-app/id-verification/initiate?bridgeEndpoint=true");
+
