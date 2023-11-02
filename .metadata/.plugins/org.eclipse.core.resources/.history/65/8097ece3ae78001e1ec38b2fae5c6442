@@ -1,8 +1,0 @@
- camel:
-  springboot:
-    name: CamelRestContext
-  component:
-    servlet:
-      mapping:
-        enabled: true
-        context-path: /v1

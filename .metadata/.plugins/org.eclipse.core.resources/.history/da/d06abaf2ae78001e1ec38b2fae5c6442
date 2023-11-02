@@ -1,8 +1,0 @@
-camel:
-  springboot:
-    name: RestDSLContext
-  servlet:
-    mapping:
-      context-path: /v1/*
-  rest:
-    context-path: /v1
