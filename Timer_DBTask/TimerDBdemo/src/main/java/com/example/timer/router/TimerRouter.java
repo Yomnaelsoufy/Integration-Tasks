@@ -23,8 +23,8 @@ public class TimerRouter extends RouteBuilder {
 
 	@Override
 	public void configure() throws Exception {
-		  from("quartz://myTimer?cron=0+34+11+6+*+?").
-//		from("timer:first-timer?period=10000").
+//		  from("quartz://myTimer?cron=0+01+12+6+*+?").
+		from("timer:first-timer?period=10000").
 		  log("saving to DB...")
 		.process(new Processor() {
             @Override
