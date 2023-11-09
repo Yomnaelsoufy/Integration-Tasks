@@ -17,7 +17,12 @@
     <fullyQualifiedTypeName name="org.apache.camel.spi.RestConfiguration.RestBindingMode"/>
     <fullyQualifiedTypeName name="org.apache.camel.model.rest.RestBindingMode"/>
     <fullyQualifiedTypeName name="org.apache.camel.CamelContext"/>
-    <fullyQualifiedTypeName name="com.mysql.cj.jdbc.MysqlDataSource"/>
     <fullyQualifiedTypeName name="org.apache.camel.support.SimpleRegistry"/>
     <fullyQualifiedTypeName name="org.apache.camel.impl.DefaultCamelContext"/>
+    <fullyQualifiedTypeName name="com.example.main.api.model.Header"/>
+    <fullyQualifiedTypeName name="org.mapstruct.Mapper"/>
+    <fullyQualifiedTypeName name="org.mapstruct.Mapping"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.jdbc.MysqlDataSource"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
+    <fullyQualifiedTypeName name="com.example.main.api.mapper.HeaderMapper"/>
 </qualifiedTypeNameHistroy>

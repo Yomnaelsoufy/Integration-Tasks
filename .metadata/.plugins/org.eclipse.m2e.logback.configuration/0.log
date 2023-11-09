@@ -1682,3 +1682,166 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.mysql:mys
 2023-11-02 16:10:43,075 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SecondAPIdemo/src/main/resources
 2023-11-02 16:10:43,076 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SecondAPIdemo/src/test/java
 2023-11-02 16:10:44,031 [Worker-4: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 5 project(s) in 30 sec
+2023-11-08 11:28:21,275 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-11-08 11:28:46,617 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example.fourth.api:InitiateNafathAppConsumerVerification:0.0.1-SNAPSHOT @ D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\pom.xml.
+2023-11-08 11:28:52,391 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /InitiateNafathAppConsumerVerification/src/main/java
+2023-11-08 11:28:52,392 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /InitiateNafathAppConsumerVerification/src/main/resources
+2023-11-08 11:28:52,393 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /InitiateNafathAppConsumerVerification/src/main/resources
+2023-11-08 11:28:52,396 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /InitiateNafathAppConsumerVerification/src/test/java
+2023-11-08 11:28:55,206 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 11 sec
+2023-11-08 11:28:59,732 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:28:59,778 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:28:59,788 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:30:16,138 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:30:16,144 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:30:16,149 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:30:27,836 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:30:27,842 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:30:27,855 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:30:28,922 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:30:28,927 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:30:28,932 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:31:18,872 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:31:18,885 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:31:18,890 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:35:20,002 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example.fourth.api:InitiateNafathAppConsumerVerification:0.0.1-SNAPSHOT @ D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\pom.xml.
+2023-11-08 11:35:23,064 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:35:23,065 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:35:23,073 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:35:31,287 [Worker-8: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example.fourth.api:InitiateNafathAppConsumerVerification:0.0.1-SNAPSHOT @ D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\pom.xml.
+2023-11-08 11:35:34,247 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:35:34,248 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:35:34,255 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:35:37,478 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example.fourth.api:InitiateNafathAppConsumerVerification:0.0.1-SNAPSHOT @ D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\pom.xml.
+2023-11-08 11:35:39,774 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:35:39,774 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:35:39,777 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:35:46,522 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:35:46,563 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:35:46,572 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:36:27,434 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example.fourth.api:InitiateNafathAppConsumerVerification:0.0.1-SNAPSHOT @ D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\pom.xml.
+2023-11-08 11:36:27,637 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mapstruct:mapstruct:jar:${org.mapstruct.version} is missing, no dependency information available
+2023-11-08 11:36:30,405 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:36:30,412 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:36:30,420 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:36:31,165 [Worker-12: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mapstruct:mapstruct:jar:${org.mapstruct.version} is missing, no dependency information available
+2023-11-08 11:36:33,177 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mapstruct/mapstruct/${org.mapstruct.version}/mapstruct-${org.mapstruct.version}-sources.jar
+2023-11-08 11:36:33,189 [Worker-12: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.mapstruct:mapstruct:${org.mapstruct.version}
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.mapstruct:mapstruct:jar:sources:${org.mapstruct.version}
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-11-08 11:37:04,488 [Worker-11: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example.fourth.api:InitiateNafathAppConsumerVerification:0.0.1-SNAPSHOT @ D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\pom.xml.
+2023-11-08 11:37:06,974 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:37:06,975 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:37:06,979 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:37:10,791 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:37:10,809 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:37:10,811 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:37:56,462 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:37:56,465 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:37:56,469 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:37:57,577 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:37:57,585 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:37:57,588 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:38:01,428 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:38:01,435 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:38:01,439 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:38:10,066 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:38:10,074 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:38:10,080 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:38:12,321 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:38:12,324 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:38:12,327 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:40:55,583 [Worker-10: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example.fourth.api:InitiateNafathAppConsumerVerification:0.0.1-SNAPSHOT @ D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\pom.xml.
+2023-11-08 11:40:57,421 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:40:57,421 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:40:57,428 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:41:01,157 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:41:01,194 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:41:01,199 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:41:02,850 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:41:02,862 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:41:02,865 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:41:08,479 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:41:08,489 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:41:08,493 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:41:55,410 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:41:55,421 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:41:55,424 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:42:18,037 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:42:18,046 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:42:18,051 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:42:19,100 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:42:19,105 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:42:19,106 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:42:46,020 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:42:46,027 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:42:46,035 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:42:47,137 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:42:47,143 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:42:47,146 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:43:01,526 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:43:01,537 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:43:01,540 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:43:02,595 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:43:02,607 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:43:02,610 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:43:18,038 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:43:18,090 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:43:18,094 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:43:55,595 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:43:55,603 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:43:55,607 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:43:56,654 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:43:56,660 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:43:56,662 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:44:20,904 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:44:20,909 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:44:20,912 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:44:31,661 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-11-08 11:44:37,272 [Worker-12: Launching InitiateNafathAppConsumerVerification] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification
+2023-11-08 11:44:37,299 [Worker-12: Launching InitiateNafathAppConsumerVerification] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B compile -Dstyle.color=always -Dstyle.color=always
+2023-11-08 11:45:00,851 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2023-11-08 11:45:00,964 [Worker-1: Launching InitiateNafathAppConsumerVerification] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification
+2023-11-08 11:45:00,965 [Worker-1: Launching InitiateNafathAppConsumerVerification] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B compile -Dstyle.color=always -Dstyle.color=always
+2023-11-08 11:45:13,240 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:45:13,252 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:45:13,256 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:45:33,722 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example.fourth.api:InitiateNafathAppConsumerVerification:0.0.1-SNAPSHOT @ D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\pom.xml.
+2023-11-08 11:45:35,233 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:45:35,234 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:45:35,238 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:45:43,363 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2023-11-08 11:45:43,439 [Worker-10: Launching InitiateNafathAppConsumerVerification] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification
+2023-11-08 11:45:43,439 [Worker-10: Launching InitiateNafathAppConsumerVerification] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B compile -Dstyle.color=always -Dstyle.color=always
+2023-11-08 11:45:57,521 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:45:57,521 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:45:57,523 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:46:22,838 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:46:22,864 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:46:22,867 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:46:47,721 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:46:47,727 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:46:47,730 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:48:17,400 [Worker-8: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example.fourth.api:InitiateNafathAppConsumerVerification:0.0.1-SNAPSHOT @ D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\pom.xml.
+2023-11-08 11:48:19,483 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:48:19,484 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:48:19,487 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources
+2023-11-08 11:49:30,641 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 11:49:30,667 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 11:49:30,671 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SimpleRestTask\InitiateNafathAppConsumerVerification\src\test\resources

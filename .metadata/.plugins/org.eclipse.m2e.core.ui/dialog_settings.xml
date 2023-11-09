@@ -6,6 +6,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\Integration Tasks\SimpleRestTask"/>
 			<item value="D:\Integration Tasks\FirstTask"/>
 		</list>
 		<list key="projectNameTemplate">

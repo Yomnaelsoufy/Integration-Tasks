@@ -5,18 +5,23 @@ import java.sql.SQLIntegrityConstraintViolationException;
 import org.apache.camel.Exchange;
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.example.main.api.mapper.HeaderMapper;
+import com.example.main.api.model.Header;
 import com.mysql.cj.jdbc.MysqlDataSource;
 
 @Component
 public class FourthServiceRouter extends RouteBuilder {
+
+//	private Header header ;
 
 	@Override
 	public void configure() throws Exception {
 		MysqlDataSource datasource = new MysqlDataSource();
 		datasource.setUrl("jdbc:mysql://localhost:3306/NafathDB");
 		datasource.setUser("root");
-		datasource.setPassword("root");
+		datasource.setPassword("hanaaElshamy1");
 
 		getContext().getRegistry().bind("myDataSource", datasource);
 
@@ -27,6 +32,12 @@ public class FourthServiceRouter extends RouteBuilder {
         .setBody(constant("{\"id\": \"1081871111\", \"action\": \"SpRequest\", \"service\":\"Login\" }"))
         .log("fourth req: ${body}").setHeader(Exchange.HTTP_METHOD, constant("POST"))
         .to("http://localhost:8086/v1/nafath-app/id-verification/initiate?bridgeEndpoint=true")
+        .process(exchange -> {
+            ResponseBody responseBody = exchange.getIn().getBody(ResponseBody.class);
+//            HeaderMapper headerMapper = // Inject or create an instance of the generated mapper
+//            Header header = headerMapper.mapResponseToHeader(responseBody);
+//            exchange.getIn().setHeader("header", header);
+        })
         .doCatch(SQLIntegrityConstraintViolationException.class)
             .log("Duplicate primary key detected. Handling the exception...")
             .to("direct:SQLError")

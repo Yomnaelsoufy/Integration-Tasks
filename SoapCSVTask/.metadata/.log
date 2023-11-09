@@ -1,4 +1,4 @@
-!SESSION 2023-11-02 20:45:38.343 -----------------------------------------------
+!SESSION 2023-11-08 13:39:35.010 -----------------------------------------------
 eclipse.buildId=4.15.1.202206171354
 java.version=17.0.3
 java.vendor=Eclipse Adoptium
@@ -6,15 +6,15 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.springframework.boot.ide.branding.sts4
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
 
-!ENTRY org.eclipse.jface 2 0 2023-11-02 20:47:22.551
+!ENTRY org.eclipse.jface 2 0 2023-11-08 13:40:17.304
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2023-11-02 20:47:22.557
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-11-08 13:40:17.304
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
 		Open a type in a Java editor,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4511146f,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4fea095b,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -22,17 +22,17 @@ Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
 		,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5c16561a,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@354e2bff,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2023-11-02 20:47:22.557
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-11-08 13:40:17.304
 !MESSAGE A conflict occurred for ALT+SHIFT+R:
 Binding(ALT+SHIFT+R,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
 		Rename the selected element,
 		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5819ee0f,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@232b3b4c,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -40,14 +40,1143 @@ Binding(ALT+SHIFT+R,
 	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
 		Rename the selected item,
 		Category(org.eclipse.ui.category.file,File,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@f310675,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@261609a7,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
-!ENTRY org.eclipse.egit.ui 2 0 2023-11-02 20:47:47.269
+!ENTRY org.eclipse.egit.ui 2 0 2023-11-08 13:40:23.411
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\yaelsoufy'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2023-11-08 13:47:08.723
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:47:21.718
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:47:21.719
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@ea4dd6b[org.springframework.tooling.boot.ls:1.36.0.202206171137(id=567)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:47:21.723
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:47:21.774
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:47:27.457
+!MESSAGE Boot LS startup time from start to initialized: 5721ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:47:27.933
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SapUTiToisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:47:27.936
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:47:27.940
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:47:27.941
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:47:27.942
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:47:27.945
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SapUTiTo => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:47:27.988
+!MESSAGE classpath=166 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:47:28.000
+!MESSAGE buffering callback sts4.classpath.SapUTiTo SendLoyaltyEarningReportApp false 166
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:47:28.001
+!MESSAGE executing callback sts4.classpath.SapUTiTo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:47:29.816
+!MESSAGE executing callback sts4.classpath.SapUTiTo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:50:31.043
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:50:31.057
+!MESSAGE classpath=174 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:50:31.069
+!MESSAGE buffering callback sts4.classpath.SapUTiTo SendLoyaltyEarningReportApp false 174
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:50:31.070
+!MESSAGE executing callback sts4.classpath.SapUTiTo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:50:31.127
+!MESSAGE executing callback sts4.classpath.SapUTiTo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:52:07.050
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:52:07.064
+!MESSAGE classpath=150 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:52:07.073
+!MESSAGE buffering callback sts4.classpath.SapUTiTo SendLoyaltyEarningReportApp false 150
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:52:07.074
+!MESSAGE executing callback sts4.classpath.SapUTiTo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:52:07.125
+!MESSAGE executing callback sts4.classpath.SapUTiTo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:53:07.266
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:53:07.277
+!MESSAGE classpath=174 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:53:07.285
+!MESSAGE buffering callback sts4.classpath.SapUTiTo SendLoyaltyEarningReportApp false 174
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:53:07.286
+!MESSAGE executing callback sts4.classpath.SapUTiTo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:53:07.324
+!MESSAGE executing callback sts4.classpath.SapUTiTo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:58:08.498
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:58:08.509
+!MESSAGE classpath=150 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:58:08.519
+!MESSAGE buffering callback sts4.classpath.SapUTiTo SendLoyaltyEarningReportApp false 150
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:58:08.520
+!MESSAGE executing callback sts4.classpath.SapUTiTo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 13:58:08.570
+!MESSAGE executing callback sts4.classpath.SapUTiTo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 14:12:06.977
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 14:12:06.985
+!MESSAGE classpath=174 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 14:12:06.992
+!MESSAGE buffering callback sts4.classpath.SapUTiTo SendLoyaltyEarningReportApp false 174
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 14:12:06.993
+!MESSAGE executing callback sts4.classpath.SapUTiTo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 14:12:07.028
+!MESSAGE executing callback sts4.classpath.SapUTiTo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 14:30:29.280
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 14:30:29.283
+!MESSAGE classpath=150 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 14:30:29.286
+!MESSAGE buffering callback sts4.classpath.SapUTiTo SendLoyaltyEarningReportApp false 150
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 14:30:29.286
+!MESSAGE executing callback sts4.classpath.SapUTiTo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 14:30:29.298
+!MESSAGE executing callback sts4.classpath.SapUTiTo SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-11-08 14:35:33.036
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-11-08 14:40:28.813
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-11-08 15:00:17.411
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:01:01.802
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:01:01.806
+!MESSAGE classpath=151 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:01:01.809
+!MESSAGE buffering callback sts4.classpath.SapUTiTo SendLoyaltyEarningReportApp false 151
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:01:01.810
+!MESSAGE executing callback sts4.classpath.SapUTiTo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:01:01.826
+!MESSAGE executing callback sts4.classpath.SapUTiTo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:01:40.242
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:01:40.246
+!MESSAGE classpath=153 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:01:40.250
+!MESSAGE buffering callback sts4.classpath.SapUTiTo SendLoyaltyEarningReportApp false 153
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:01:40.250
+!MESSAGE executing callback sts4.classpath.SapUTiTo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:01:40.265
+!MESSAGE executing callback sts4.classpath.SapUTiTo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:01:44.691
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:01:44.695
+!MESSAGE classpath=153 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:01:44.697
+!MESSAGE buffering callback sts4.classpath.SapUTiTo SendLoyaltyEarningReportApp false 153
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:01:44.698
+!MESSAGE executing callback sts4.classpath.SapUTiTo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:01:44.714
+!MESSAGE executing callback sts4.classpath.SapUTiTo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:02:35.001
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:02:35.004
+!MESSAGE classpath=153 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:02:35.007
+!MESSAGE buffering callback sts4.classpath.SapUTiTo SendLoyaltyEarningReportApp false 153
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:02:35.007
+!MESSAGE executing callback sts4.classpath.SapUTiTo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:02:35.019
+!MESSAGE executing callback sts4.classpath.SapUTiTo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:02:36.833
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:02:36.837
+!MESSAGE classpath=153 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:02:36.840
+!MESSAGE buffering callback sts4.classpath.SapUTiTo SendLoyaltyEarningReportApp false 153
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:02:36.840
+!MESSAGE executing callback sts4.classpath.SapUTiTo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:02:36.852
+!MESSAGE executing callback sts4.classpath.SapUTiTo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:03:29.282
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:03:29.288
+!MESSAGE classpath=152 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:03:29.290
+!MESSAGE buffering callback sts4.classpath.SapUTiTo SendLoyaltyEarningReportApp false 152
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:03:29.290
+!MESSAGE executing callback sts4.classpath.SapUTiTo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:03:29.305
+!MESSAGE executing callback sts4.classpath.SapUTiTo SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-11-08 15:26:08.658
+!MESSAGE The POM for javax.xml.bind:jaxb-api:jar:2.3.3 is missing, no dependency information available
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:26:08.960
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:26:08.964
+!MESSAGE classpath=153 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:26:08.967
+!MESSAGE buffering callback sts4.classpath.SapUTiTo SendLoyaltyEarningReportApp false 152
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:26:08.968
+!MESSAGE executing callback sts4.classpath.SapUTiTo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:26:08.981
+!MESSAGE executing callback sts4.classpath.SapUTiTo SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-11-08 15:26:10.063
+!MESSAGE The POM for javax.xml.bind:jaxb-api:jar:2.3.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-11-08 15:26:10.588
+!MESSAGE Could not download sources for javax.xml.bind:jaxb-api:2.3.3
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact javax.xml.bind:jaxb-api:jar:sources:2.3.3
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing javax.xml.bind:jaxb-api:jar:sources:2.3.3
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-11-08 15:26:10.588
+!MESSAGE Could not resolve artifact javax.xml.bind:jaxb-api:jar:sources:2.3.3
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2023-11-08 15:26:10.588
+!MESSAGE Missing javax.xml.bind:jaxb-api:jar:sources:2.3.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-11-08 15:26:31.191
+!MESSAGE The POM for javax.xml.bind:jaxb-api:jar:4.1.0 is missing, no dependency information available
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:26:31.450
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:26:31.454
+!MESSAGE classpath=153 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:26:31.457
+!MESSAGE buffering callback sts4.classpath.SapUTiTo SendLoyaltyEarningReportApp false 152
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:26:31.458
+!MESSAGE executing callback sts4.classpath.SapUTiTo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:26:31.472
+!MESSAGE executing callback sts4.classpath.SapUTiTo SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-11-08 15:26:32.525
+!MESSAGE The POM for javax.xml.bind:jaxb-api:jar:4.1.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-11-08 15:26:33.125
+!MESSAGE Could not download sources for javax.xml.bind:jaxb-api:4.1.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact javax.xml.bind:jaxb-api:jar:sources:4.1.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing javax.xml.bind:jaxb-api:jar:sources:4.1.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-11-08 15:26:33.125
+!MESSAGE Could not resolve artifact javax.xml.bind:jaxb-api:jar:sources:4.1.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2023-11-08 15:26:33.125
+!MESSAGE Missing javax.xml.bind:jaxb-api:jar:sources:4.1.0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:27:18.318
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:27:18.322
+!MESSAGE classpath=154 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:27:18.326
+!MESSAGE buffering callback sts4.classpath.SapUTiTo SendLoyaltyEarningReportApp false 154
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:27:18.326
+!MESSAGE executing callback sts4.classpath.SapUTiTo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:27:18.342
+!MESSAGE executing callback sts4.classpath.SapUTiTo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:29:17.119
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:29:17.119
+!MESSAGE classpath=179 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:29:17.134
+!MESSAGE buffering callback sts4.classpath.SapUTiTo SendLoyaltyEarningReportApp false 179
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:29:17.134
+!MESSAGE executing callback sts4.classpath.SapUTiTo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:29:17.150
+!MESSAGE executing callback sts4.classpath.SapUTiTo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:29:48.120
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:29:48.120
+!MESSAGE classpath=179 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:29:48.134
+!MESSAGE buffering callback sts4.classpath.SapUTiTo SendLoyaltyEarningReportApp false 179
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:29:48.134
+!MESSAGE executing callback sts4.classpath.SapUTiTo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:29:48.152
+!MESSAGE executing callback sts4.classpath.SapUTiTo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:31:42.235
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:31:42.239
+!MESSAGE classpath=179 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:31:42.242
+!MESSAGE buffering callback sts4.classpath.SapUTiTo SendLoyaltyEarningReportApp false 179
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:31:42.242
+!MESSAGE executing callback sts4.classpath.SapUTiTo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:31:42.257
+!MESSAGE executing callback sts4.classpath.SapUTiTo SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-11-08 15:31:51.782
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-11-08 15:33:09.901
+!MESSAGE The POM for org.apache.cxf:cxf-rt-frontend-jaxws:jar:4.1.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-11-08 15:33:09.906
+!MESSAGE The POM for org.apache.cxf:cxf-rt-bindings-soap:jar:4.1.0 is missing, no dependency information available
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:33:10.211
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:33:10.217
+!MESSAGE classpath=156 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:33:10.221
+!MESSAGE buffering callback sts4.classpath.SapUTiTo SendLoyaltyEarningReportApp false 154
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:33:10.221
+!MESSAGE executing callback sts4.classpath.SapUTiTo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:33:10.236
+!MESSAGE executing callback sts4.classpath.SapUTiTo SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-11-08 15:33:11.239
+!MESSAGE The POM for org.apache.cxf:cxf-rt-frontend-jaxws:jar:4.1.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-11-08 15:33:11.239
+!MESSAGE The POM for org.apache.cxf:cxf-rt-bindings-soap:jar:4.1.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-11-08 15:33:11.875
+!MESSAGE Could not download sources for org.apache.cxf:cxf-rt-frontend-jaxws:4.1.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.cxf:cxf-rt-frontend-jaxws:jar:sources:4.1.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.apache.cxf:cxf-rt-frontend-jaxws:jar:sources:4.1.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-11-08 15:33:11.875
+!MESSAGE Could not resolve artifact org.apache.cxf:cxf-rt-frontend-jaxws:jar:sources:4.1.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2023-11-08 15:33:11.875
+!MESSAGE Missing org.apache.cxf:cxf-rt-frontend-jaxws:jar:sources:4.1.0
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-11-08 15:33:12.390
+!MESSAGE Could not download sources for org.apache.cxf:cxf-rt-bindings-soap:4.1.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.cxf:cxf-rt-bindings-soap:jar:sources:4.1.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.apache.cxf:cxf-rt-bindings-soap:jar:sources:4.1.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-11-08 15:33:12.390
+!MESSAGE Could not resolve artifact org.apache.cxf:cxf-rt-bindings-soap:jar:sources:4.1.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2023-11-08 15:33:12.390
+!MESSAGE Missing org.apache.cxf:cxf-rt-bindings-soap:jar:sources:4.1.0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:33:18.623
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:33:18.629
+!MESSAGE classpath=179 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:33:18.633
+!MESSAGE buffering callback sts4.classpath.SapUTiTo SendLoyaltyEarningReportApp false 179
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:33:18.633
+!MESSAGE executing callback sts4.classpath.SapUTiTo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:33:18.651
+!MESSAGE executing callback sts4.classpath.SapUTiTo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:33:47.280
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:33:47.285
+!MESSAGE classpath=179 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:33:47.288
+!MESSAGE buffering callback sts4.classpath.SapUTiTo SendLoyaltyEarningReportApp false 179
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:33:47.288
+!MESSAGE executing callback sts4.classpath.SapUTiTo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:33:47.307
+!MESSAGE executing callback sts4.classpath.SapUTiTo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:34:07.907
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:34:07.911
+!MESSAGE classpath=179 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:34:07.914
+!MESSAGE buffering callback sts4.classpath.SapUTiTo SendLoyaltyEarningReportApp false 179
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:34:07.914
+!MESSAGE executing callback sts4.classpath.SapUTiTo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:34:07.927
+!MESSAGE executing callback sts4.classpath.SapUTiTo SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-11-08 15:35:24.377
+!MESSAGE The POM for org.apache.camel.springboot:camel-spring-boot-starter:jar:4.0.3 is missing, no dependency information available
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:35:24.821
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:35:24.825
+!MESSAGE classpath=126 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:35:24.828
+!MESSAGE buffering callback sts4.classpath.SapUTiTo SendLoyaltyEarningReportApp false 125
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:35:24.828
+!MESSAGE executing callback sts4.classpath.SapUTiTo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:35:24.845
+!MESSAGE executing callback sts4.classpath.SapUTiTo SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-11-08 15:35:25.625
+!MESSAGE The POM for org.apache.camel.springboot:camel-spring-boot-starter:jar:4.0.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-11-08 15:35:26.236
+!MESSAGE Could not download sources for org.apache.camel.springboot:camel-spring-boot-starter:4.0.3
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.camel.springboot:camel-spring-boot-starter:jar:sources:4.0.3
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.apache.camel.springboot:camel-spring-boot-starter:jar:sources:4.0.3
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-11-08 15:35:26.236
+!MESSAGE Could not resolve artifact org.apache.camel.springboot:camel-spring-boot-starter:jar:sources:4.0.3
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2023-11-08 15:35:26.236
+!MESSAGE Missing org.apache.camel.springboot:camel-spring-boot-starter:jar:sources:4.0.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-11-08 15:35:58.148
+!MESSAGE The POM for org.apache.camel:camel-http:jar:4.0.3 is missing, no dependency information available
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:35:58.728
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:35:58.732
+!MESSAGE classpath=172 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:35:58.736
+!MESSAGE buffering callback sts4.classpath.SapUTiTo SendLoyaltyEarningReportApp false 171
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:35:58.736
+!MESSAGE executing callback sts4.classpath.SapUTiTo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:35:58.752
+!MESSAGE executing callback sts4.classpath.SapUTiTo SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-11-08 15:35:59.435
+!MESSAGE The POM for org.apache.camel:camel-http:jar:4.0.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-11-08 15:36:00.453
+!MESSAGE Could not download sources for org.apache.camel:camel-http:4.0.3
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.camel:camel-http:jar:sources:4.0.3
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.apache.camel:camel-http:jar:sources:4.0.3
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-11-08 15:36:00.453
+!MESSAGE Could not resolve artifact org.apache.camel:camel-http:jar:sources:4.0.3
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2023-11-08 15:36:00.453
+!MESSAGE Missing org.apache.camel:camel-http:jar:sources:4.0.3
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:36:46.102
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:36:46.107
+!MESSAGE classpath=179 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:36:46.111
+!MESSAGE buffering callback sts4.classpath.SapUTiTo SendLoyaltyEarningReportApp false 179
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:36:46.111
+!MESSAGE executing callback sts4.classpath.SapUTiTo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:36:46.128
+!MESSAGE executing callback sts4.classpath.SapUTiTo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:37:06.734
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:37:06.739
+!MESSAGE classpath=179 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:37:06.742
+!MESSAGE buffering callback sts4.classpath.SapUTiTo SendLoyaltyEarningReportApp false 179
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:37:06.742
+!MESSAGE executing callback sts4.classpath.SapUTiTo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:37:06.758
+!MESSAGE executing callback sts4.classpath.SapUTiTo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:47:22.294
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:47:22.298
+!MESSAGE classpath=154 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:47:22.301
+!MESSAGE buffering callback sts4.classpath.SapUTiTo SendLoyaltyEarningReportApp false 154
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:47:22.301
+!MESSAGE executing callback sts4.classpath.SapUTiTo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:47:22.315
+!MESSAGE executing callback sts4.classpath.SapUTiTo SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-11-08 15:48:41.725
+!MESSAGE org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$12(LanguageServerWrapper.java:458)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:272)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at jdk.proxy17/jdk.proxy17.$Proxy67.shutdown(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$12(LanguageServerWrapper.java:456)
+	... 7 more
+Caused by: java.io.IOException: The pipe is being closed
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:349)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 12 more
+
+!ENTRY org.eclipse.ui 4 0 2023-11-08 15:48:41.941
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.springsource.ide.eclipse.commons.ui.launch.LaunchList.getLast()" because "this.launches" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.AbstractLaunchToolbarPulldown.update(AbstractLaunchToolbarPulldown.java:112)
+	at org.springsource.ide.eclipse.commons.ui.launch.AbstractLaunchToolbarPulldown.access$4(AbstractLaunchToolbarPulldown.java:110)
+	at org.springsource.ide.eclipse.commons.ui.launch.AbstractLaunchToolbarPulldown$3.run(AbstractLaunchToolbarPulldown.java:134)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4043)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3648)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3723)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:324)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3250)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1313)
+	at org.eclipse.jface.window.Window.open(Window.java:795)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.open(ProgressMonitorDialog.java:633)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.aboutToRun(ProgressMonitorDialog.java:542)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:467)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:230)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.disconnectFromWorkspace(IDEWorkbenchAdvisor.java:560)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.run(IDEWorkbenchAdvisor.java:367)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.postShutdown(IDEWorkbenchAdvisor.java:388)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:2942)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1124)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1392)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1392)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1368)
+	at org.eclipse.ui.internal.Workbench.lambda$16(Workbench.java:2744)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3256)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5034)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SESSION 2023-11-08 15:50:20.807 -----------------------------------------------
+eclipse.buildId=4.15.1.202206171354
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-11-08 15:50:27.740
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2023-11-08 15:50:40.524
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-11-08 15:50:40.524
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@297454f7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@602b7944,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-11-08 15:50:40.524
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5f8d4b51,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@55821edf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:50:48.051
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:50:48.052
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@8bd2da4[org.springframework.tooling.boot.ls:1.36.0.202206171137(id=567)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:50:48.066
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:50:48.400
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-11-08 15:50:49.580
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yaelsoufy'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-11-08 15:50:56.687
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:51:04.805
+!MESSAGE Boot LS startup time from start to initialized: 16734ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:51:04.951
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.rBcXZgBXisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:51:04.954
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:51:04.956
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:51:04.957
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:51:04.957
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.rBcXZgBX => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:51:04.958
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:51:05.301
+!MESSAGE classpath=154 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:51:05.309
+!MESSAGE buffering callback sts4.classpath.rBcXZgBX SendLoyaltyEarningReportApp false 154
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:51:05.309
+!MESSAGE executing callback sts4.classpath.rBcXZgBX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-08 15:51:06.125
+!MESSAGE executing callback sts4.classpath.rBcXZgBX SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-11-08 15:52:39.110
+!MESSAGE org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$12(LanguageServerWrapper.java:458)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:272)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at jdk.proxy12/jdk.proxy12.$Proxy49.shutdown(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$12(LanguageServerWrapper.java:456)
+	... 7 more
+Caused by: java.io.IOException: The pipe is being closed
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:349)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 12 more
+!SESSION 2023-11-09 09:38:14.412 -----------------------------------------------
+eclipse.buildId=4.15.1.202206171354
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-11-09 09:51:44.485
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2023-11-09 09:52:07.229
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-11-09 09:52:07.229
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5f26cb8b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3a2a56f6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-11-09 09:52:07.229
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6a8da5c5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@160e45c8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 09:52:24.290
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 09:52:24.290
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@593806d1[org.springframework.tooling.boot.ls:1.36.0.202206171137(id=567)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 09:52:24.298
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 09:52:24.906
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-11-09 09:52:26.831
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yaelsoufy'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 09:52:42.876
+!MESSAGE Boot LS startup time from start to initialized: 18560ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 09:52:43.010
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lXnTqUPFisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 09:52:43.014
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 09:52:43.017
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 09:52:43.017
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 09:52:43.018
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lXnTqUPF => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 09:52:43.018
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 09:52:43.029
+!MESSAGE classpath=154 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 09:52:43.035
+!MESSAGE buffering callback sts4.classpath.lXnTqUPF SendLoyaltyEarningReportApp false 154
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 09:52:43.035
+!MESSAGE executing callback sts4.classpath.lXnTqUPF 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 09:52:44.754
+!MESSAGE executing callback sts4.classpath.lXnTqUPF SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2023-11-09 09:52:56.479
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-11-09 11:01:47.195
+!MESSAGE The POM for org.apache.camel:camel-cxf:jar:4.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-11-09 11:01:48.207
+!MESSAGE The POM for org.apache.camel:camel-cxf:jar:4.0.0 is missing, no dependency information available
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 11:01:48.764
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 11:01:48.771
+!MESSAGE classpath=155 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 11:01:48.776
+!MESSAGE buffering callback sts4.classpath.lXnTqUPF SendLoyaltyEarningReportApp false 154
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 11:01:48.776
+!MESSAGE executing callback sts4.classpath.lXnTqUPF 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 11:01:48.800
+!MESSAGE executing callback sts4.classpath.lXnTqUPF SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-11-09 11:01:52.507
+!MESSAGE The POM for org.apache.camel:camel-cxf:jar:4.0.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-11-09 11:01:53.315
+!MESSAGE The POM for org.apache.camel:camel-cxf:jar:4.0.1 is missing, no dependency information available
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 11:01:53.774
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 11:01:53.780
+!MESSAGE classpath=155 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 11:01:53.785
+!MESSAGE buffering callback sts4.classpath.lXnTqUPF SendLoyaltyEarningReportApp false 154
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 11:01:53.785
+!MESSAGE executing callback sts4.classpath.lXnTqUPF 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 11:01:53.832
+!MESSAGE executing callback sts4.classpath.lXnTqUPF SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-11-09 11:01:54.918
+!MESSAGE The POM for org.apache.camel:camel-cxf:jar:4.0.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-11-09 11:01:55.420
+!MESSAGE Could not download sources for org.apache.camel:camel-cxf:4.0.1
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.camel:camel-cxf:jar:sources:4.0.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.apache.camel:camel-cxf:jar:sources:4.0.1
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-11-09 11:01:55.421
+!MESSAGE Could not resolve artifact org.apache.camel:camel-cxf:jar:sources:4.0.1
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2023-11-09 11:01:55.421
+!MESSAGE Missing org.apache.camel:camel-cxf:jar:sources:4.0.1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 11:02:26.705
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 11:02:26.711
+!MESSAGE classpath=197 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 11:02:26.717
+!MESSAGE buffering callback sts4.classpath.lXnTqUPF SendLoyaltyEarningReportApp false 197
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 11:02:26.717
+!MESSAGE executing callback sts4.classpath.lXnTqUPF 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-09 11:02:26.746
+!MESSAGE executing callback sts4.classpath.lXnTqUPF SUCCESS [done]

@@ -1,1 +1,964 @@
-2023-11-02 20:47:47,359 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-11-08 13:40:23,384 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-11-08 13:42:13,746 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-08 13:42:16,403 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SendLoyaltyEarningReportApp/src/main/java
+2023-11-08 13:42:16,404 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SendLoyaltyEarningReportApp/src/main/resources
+2023-11-08 13:42:16,421 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SendLoyaltyEarningReportApp/src/main/resources
+2023-11-08 13:42:16,444 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SendLoyaltyEarningReportApp/src/test/java
+2023-11-08 13:42:19,071 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2023-11-08 13:42:19,082 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-11-08 13:42:19,718 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-08 13:42:22,740 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SendLoyaltyEarningReportApp/src/main/java
+2023-11-08 13:42:22,740 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SendLoyaltyEarningReportApp/src/main/resources
+2023-11-08 13:42:22,741 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SendLoyaltyEarningReportApp/src/main/resources
+2023-11-08 13:42:22,742 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SendLoyaltyEarningReportApp/src/test/java
+2023-11-08 13:42:24,125 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 5 sec
+2023-11-08 13:42:28,475 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 13:42:28,508 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 13:42:28,515 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 13:47:22,872 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 13:47:22,892 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 13:47:22,897 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 13:47:41,145 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 13:47:41,154 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 13:47:41,160 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 13:50:28,965 [Worker-11: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-08 13:50:30,540 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 13:50:30,540 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 13:50:30,545 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 13:50:33,420 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 13:50:33,445 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 13:50:33,449 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 13:50:35,675 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 13:50:35,704 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 13:50:35,708 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 13:52:04,891 [Worker-14: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-08 13:52:06,088 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 13:52:06,088 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 13:52:06,093 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 13:52:08,286 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 13:52:08,319 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 13:52:08,323 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 13:53:05,673 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-08 13:53:06,967 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 13:53:06,967 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 13:53:06,970 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 13:53:09,764 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 13:53:09,802 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 13:53:09,806 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 13:55:20,315 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 13:55:20,322 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 13:55:20,327 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 13:55:50,452 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 13:55:50,457 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 13:55:50,462 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 13:56:17,391 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 13:56:17,395 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 13:56:17,397 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 13:58:02,808 [Worker-23: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-08 13:58:07,788 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 13:58:07,788 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 13:58:07,790 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 13:58:09,909 [Worker-17: Launching SendLoyaltyEarningReportApp - SendLoyaltyEarningReportAppApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 13:58:09,933 [Worker-17: Launching SendLoyaltyEarningReportApp - SendLoyaltyEarningReportAppApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 13:58:09,935 [Worker-17: Launching SendLoyaltyEarningReportApp - SendLoyaltyEarningReportAppApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:02:49,831 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 14:02:49,839 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:02:49,843 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:03:09,488 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 14:03:09,499 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:03:09,504 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:04:29,554 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 14:04:29,559 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:04:29,562 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:06:16,994 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 14:06:17,002 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:06:17,005 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:08:09,153 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 14:08:09,166 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:08:09,169 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:09:19,770 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 14:09:19,784 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:09:19,792 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:10:38,392 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 14:10:38,400 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:10:38,406 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:11:23,841 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 14:11:23,846 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:11:23,848 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:11:37,561 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 14:11:37,569 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:11:37,569 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:11:43,892 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 14:11:43,896 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:11:43,899 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:12:04,841 [Worker-34: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-08 14:12:06,693 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:12:06,693 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:12:06,698 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:12:09,235 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 14:12:09,265 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:12:09,268 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:12:33,357 [Worker-36: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-08 14:12:34,091 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:12:34,091 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:12:34,094 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:12:45,258 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 14:12:45,271 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:12:45,273 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:13:44,410 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 14:13:44,416 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:13:44,421 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:15:51,581 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 14:15:51,586 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:15:51,590 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:28:51,327 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 14:28:51,331 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:28:51,333 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:30:28,856 [Worker-46: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-08 14:30:29,152 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:30:29,153 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:30:29,154 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:30:30,656 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 14:30:30,665 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:30:30,666 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:33:18,601 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 14:33:18,605 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:33:18,606 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:37:43,546 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 14:37:43,553 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:37:43,555 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:38:25,806 [Worker-49: Launching SendLoyaltyEarningReportApp - SendLoyaltyEarningReportAppApplication] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-08 14:38:27,373 [Worker-49: Launching SendLoyaltyEarningReportApp - SendLoyaltyEarningReportAppApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:38:27,374 [Worker-49: Launching SendLoyaltyEarningReportApp - SendLoyaltyEarningReportAppApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:38:27,374 [Worker-49: Launching SendLoyaltyEarningReportApp - SendLoyaltyEarningReportAppApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:40:15,997 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 14:40:16,004 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:40:16,005 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:40:42,898 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 14:40:42,901 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:40:42,902 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:45:54,865 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 14:45:54,874 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:45:54,875 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:53:32,584 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 14:53:32,595 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:53:32,596 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:55:01,445 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 14:55:01,450 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:55:01,451 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:57:07,652 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 14:57:07,659 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:57:07,659 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 14:59:57,839 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 14:59:57,839 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 14:59:57,839 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:00:22,819 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 15:00:22,822 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:00:22,822 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:01:01,325 [Worker-68: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-08 15:01:01,672 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:01:01,672 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:01:01,673 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:01:03,090 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 15:01:03,101 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:01:03,102 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:01:05,735 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 15:01:05,738 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:01:05,738 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:01:37,617 [Worker-62: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-08 15:01:38,513 [Worker-62: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/activation/activation/1.1/activation-1.1.pom
+2023-11-08 15:01:38,825 [Worker-62: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/activation/activation/1.1/activation-1.1.pom
+2023-11-08 15:01:39,033 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar
+2023-11-08 15:01:39,156 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/activation/activation/1.1/activation-1.1.jar
+2023-11-08 15:01:39,669 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/activation/activation/1.1/activation-1.1.jar
+2023-11-08 15:01:39,957 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar
+2023-11-08 15:01:40,116 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:01:40,116 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:01:40,118 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:01:41,319 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 15:01:41,331 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:01:41,331 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:01:41,952 [Worker-65: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2-sources.jar
+2023-11-08 15:01:43,506 [Worker-65: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2-sources.jar
+2023-11-08 15:01:43,509 [Worker-65: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.mail:javax.mail:1.6.2
+2023-11-08 15:01:44,241 [Worker-65: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/activation/activation/1.1/activation-1.1-sources.jar
+2023-11-08 15:01:44,573 [Worker-65: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/activation/activation/1.1/activation-1.1-sources.jar
+2023-11-08 15:01:44,575 [Worker-65: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.activation:activation:1.1
+2023-11-08 15:01:44,834 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:01:44,834 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:01:44,835 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:02:32,899 [Worker-65: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-08 15:02:33,495 [Worker-65: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/activation/all/2.0.0/all-2.0.0.pom
+2023-11-08 15:02:33,655 [Worker-65: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/activation/all/2.0.0/all-2.0.0.pom
+2023-11-08 15:02:33,766 [Worker-65: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.0.0/jakarta.activation-api-2.0.0.jar
+2023-11-08 15:02:34,427 [Worker-65: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.0.0/jakarta.activation-api-2.0.0.jar
+2023-11-08 15:02:34,758 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:02:34,758 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:02:34,759 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:02:36,102 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 15:02:36,111 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:02:36,112 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:02:36,313 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.0.0/jakarta.activation-api-2.0.0-sources.jar
+2023-11-08 15:02:36,721 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.0.0/jakarta.activation-api-2.0.0-sources.jar
+2023-11-08 15:02:36,724 [Worker-66: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.activation:jakarta.activation-api:2.0.0
+2023-11-08 15:02:37,139 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:02:37,139 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:02:37,140 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:02:45,638 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 15:02:45,641 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:02:45,642 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:03:28,857 [Worker-66: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-08 15:03:29,164 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:03:29,165 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:03:29,165 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:03:30,592 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 15:03:30,600 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:03:30,601 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:03:46,290 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 15:03:46,292 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:03:46,294 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:04:01,485 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 15:04:01,487 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:04:01,487 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:04:46,259 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 15:04:46,262 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:04:46,263 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:05:49,694 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 15:05:49,698 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:05:49,699 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:11:09,247 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 15:11:09,251 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:11:09,252 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:13:49,674 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 15:13:49,678 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:13:49,680 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:18:48,649 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 15:18:48,657 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:18:48,658 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:26:06,181 [Worker-84: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-08 15:26:08,645 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.3.3/jaxb-api-2.3.3.pom
+2023-11-08 15:26:08,658 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for javax.xml.bind:jaxb-api:jar:2.3.3 is missing, no dependency information available
+2023-11-08 15:26:08,836 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:26:08,837 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:26:08,838 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:26:10,063 [Worker-84: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for javax.xml.bind:jaxb-api:jar:2.3.3 is missing, no dependency information available
+2023-11-08 15:26:10,573 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.3.3/jaxb-api-2.3.3-sources.jar
+2023-11-08 15:26:10,587 [Worker-84: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for javax.xml.bind:jaxb-api:2.3.3
+org.eclipse.core.runtime.CoreException: Could not resolve artifact javax.xml.bind:jaxb-api:jar:sources:2.3.3
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-11-08 15:26:19,479 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:26:19,479 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:26:19,480 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:26:31,011 [Worker-87: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-08 15:26:31,191 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for javax.xml.bind:jaxb-api:jar:4.1.0 is missing, no dependency information available
+2023-11-08 15:26:31,355 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:26:31,355 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:26:31,357 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:26:32,524 [Worker-86: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for javax.xml.bind:jaxb-api:jar:4.1.0 is missing, no dependency information available
+2023-11-08 15:26:33,122 [Worker-86: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/4.1.0/jaxb-api-4.1.0-sources.jar
+2023-11-08 15:26:33,124 [Worker-86: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for javax.xml.bind:jaxb-api:4.1.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact javax.xml.bind:jaxb-api:jar:sources:4.1.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-11-08 15:27:17,745 [Worker-87: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-08 15:27:18,063 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:27:18,063 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:27:18,064 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:27:19,682 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 15:27:19,690 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:27:19,691 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:29:00,898 [Worker-87: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-08 15:29:01,507 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/cxf/cxf/4.0.3/cxf-4.0.3.pom
+2023-11-08 15:29:01,842 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf/4.0.3/cxf-4.0.3.pom
+2023-11-08 15:29:02,052 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.5.1/woodstox-core-6.5.1.pom
+2023-11-08 15:29:02,161 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.5.1/woodstox-core-6.5.1.pom
+2023-11-08 15:29:02,254 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/ws/xmlschema/xmlschema-core/2.3.1/xmlschema-core-2.3.1.pom
+2023-11-08 15:29:02,370 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/ws/xmlschema/xmlschema-core/2.3.1/xmlschema-core-2.3.1.pom
+2023-11-08 15:29:02,475 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/ws/xmlschema/xmlschema/2.3.1/xmlschema-2.3.1.pom
+2023-11-08 15:29:02,612 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/ws/xmlschema/xmlschema/2.3.1/xmlschema-2.3.1.pom
+2023-11-08 15:29:02,703 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-bindings-soap/4.0.3/cxf-rt-bindings-soap-4.0.3.pom
+2023-11-08 15:29:02,804 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-bindings-soap/4.0.3/cxf-rt-bindings-soap-4.0.3.pom
+2023-11-08 15:29:02,899 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/jws/jakarta.jws-api/3.0.0/jakarta.jws-api-3.0.0.pom
+2023-11-08 15:29:03,020 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/jws/jakarta.jws-api/3.0.0/jakarta.jws-api-3.0.0.pom
+2023-11-08 15:29:03,117 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-wsdl/4.0.3/cxf-rt-wsdl-4.0.3.pom
+2023-11-08 15:29:03,231 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-wsdl/4.0.3/cxf-rt-wsdl-4.0.3.pom
+2023-11-08 15:29:03,329 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-bindings-xml/4.0.3/cxf-rt-bindings-xml-4.0.3.pom
+2023-11-08 15:29:03,772 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-bindings-xml/4.0.3/cxf-rt-bindings-xml-4.0.3.pom
+2023-11-08 15:29:03,878 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-frontend-simple/4.0.3/cxf-rt-frontend-simple-4.0.3.pom
+2023-11-08 15:29:03,993 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-frontend-simple/4.0.3/cxf-rt-frontend-simple-4.0.3.pom
+2023-11-08 15:29:04,087 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-mail/1.1.0/angus-mail-1.1.0.pom
+2023-11-08 15:29:04,198 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-mail/1.1.0/angus-mail-1.1.0.pom
+2023-11-08 15:29:04,310 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/angus/all/1.1.0/all-1.1.0.pom
+2023-11-08 15:29:04,438 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/angus/all/1.1.0/all-1.1.0.pom
+2023-11-08 15:29:04,533 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/mail/jakarta.mail-api/2.1.2/jakarta.mail-api-2.1.2.pom
+2023-11-08 15:29:04,659 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/mail/jakarta.mail-api/2.1.2/jakarta.mail-api-2.1.2.pom
+2023-11-08 15:29:04,757 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-ws-addr/4.0.3/cxf-rt-ws-addr-4.0.3.pom
+2023-11-08 15:29:04,868 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-ws-addr/4.0.3/cxf-rt-ws-addr-4.0.3.pom
+2023-11-08 15:29:04,975 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-ws-policy/4.0.3/cxf-rt-ws-policy-4.0.3.pom
+2023-11-08 15:29:05,095 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-ws-policy/4.0.3/cxf-rt-ws-policy-4.0.3.pom
+2023-11-08 15:29:05,244 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/ws/xmlschema/xmlschema-core/2.3.1/xmlschema-core-2.3.1.jar
+2023-11-08 15:29:05,773 [AetherRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.5.1/woodstox-core-6.5.1.jar
+2023-11-08 15:29:05,833 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-frontend-jaxws/4.0.3/cxf-rt-frontend-jaxws-4.0.3.jar
+2023-11-08 15:29:05,888 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-core/4.0.3/cxf-core-4.0.3.jar
+2023-11-08 15:29:05,888 [AetherRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-bindings-soap/4.0.3/cxf-rt-bindings-soap-4.0.3.jar
+2023-11-08 15:29:06,945 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/ws/xmlschema/xmlschema-core/2.3.1/xmlschema-core-2.3.1.jar
+2023-11-08 15:29:07,291 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/jws/jakarta.jws-api/3.0.0/jakarta.jws-api-3.0.0.jar
+2023-11-08 15:29:09,126 [AetherRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-bindings-soap/4.0.3/cxf-rt-bindings-soap-4.0.3.jar
+2023-11-08 15:29:09,126 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/jws/jakarta.jws-api/3.0.0/jakarta.jws-api-3.0.0.jar
+2023-11-08 15:29:09,486 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-databinding-jaxb/4.0.3/cxf-rt-databinding-jaxb-4.0.3.jar
+2023-11-08 15:29:09,487 [AetherRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-wsdl/4.0.3/cxf-rt-wsdl-4.0.3.jar
+2023-11-08 15:29:09,609 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-frontend-jaxws/4.0.3/cxf-rt-frontend-jaxws-4.0.3.jar
+2023-11-08 15:29:09,898 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-bindings-xml/4.0.3/cxf-rt-bindings-xml-4.0.3.jar
+2023-11-08 15:29:10,590 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-databinding-jaxb/4.0.3/cxf-rt-databinding-jaxb-4.0.3.jar
+2023-11-08 15:29:10,928 [AetherRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-wsdl/4.0.3/cxf-rt-wsdl-4.0.3.jar
+2023-11-08 15:29:10,928 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-bindings-xml/4.0.3/cxf-rt-bindings-xml-4.0.3.jar
+2023-11-08 15:29:11,075 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-frontend-simple/4.0.3/cxf-rt-frontend-simple-4.0.3.jar
+2023-11-08 15:29:11,309 [AetherRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-mail/1.1.0/angus-mail-1.1.0.jar
+2023-11-08 15:29:11,309 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/mail/jakarta.mail-api/2.1.2/jakarta.mail-api-2.1.2.jar
+2023-11-08 15:29:12,683 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-frontend-simple/4.0.3/cxf-rt-frontend-simple-4.0.3.jar
+2023-11-08 15:29:12,778 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-ws-addr/4.0.3/cxf-rt-ws-addr-4.0.3.jar
+2023-11-08 15:29:13,311 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/mail/jakarta.mail-api/2.1.2/jakarta.mail-api-2.1.2.jar
+2023-11-08 15:29:13,397 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-ws-policy/4.0.3/cxf-rt-ws-policy-4.0.3.jar
+2023-11-08 15:29:13,446 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-ws-addr/4.0.3/cxf-rt-ws-addr-4.0.3.jar
+2023-11-08 15:29:15,007 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-ws-policy/4.0.3/cxf-rt-ws-policy-4.0.3.jar
+2023-11-08 15:29:15,019 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-core/4.0.3/cxf-core-4.0.3.jar
+2023-11-08 15:29:15,153 [AetherRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-mail/1.1.0/angus-mail-1.1.0.jar
+2023-11-08 15:29:15,341 [AetherRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.5.1/woodstox-core-6.5.1.jar
+2023-11-08 15:29:16,686 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:29:16,686 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:29:16,688 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:29:18,247 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 15:29:18,263 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:29:18,264 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:29:18,437 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-frontend-jaxws/4.0.3/cxf-rt-frontend-jaxws-4.0.3-sources.jar
+2023-11-08 15:29:18,879 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-frontend-jaxws/4.0.3/cxf-rt-frontend-jaxws-4.0.3-sources.jar
+2023-11-08 15:29:18,879 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.cxf:cxf-rt-frontend-jaxws:4.0.3
+2023-11-08 15:29:19,399 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.5/asm-9.5-sources.jar
+2023-11-08 15:29:19,918 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.5/asm-9.5-sources.jar
+2023-11-08 15:29:19,918 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.ow2.asm:asm:9.5
+2023-11-08 15:29:20,804 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-core/4.0.3/cxf-core-4.0.3-sources.jar
+2023-11-08 15:29:33,586 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-core/4.0.3/cxf-core-4.0.3-sources.jar
+2023-11-08 15:29:33,589 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.cxf:cxf-core:4.0.3
+2023-11-08 15:29:34,100 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.5.1/woodstox-core-6.5.1-sources.jar
+2023-11-08 15:29:34,691 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.5.1/woodstox-core-6.5.1-sources.jar
+2023-11-08 15:29:34,696 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.woodstox:woodstox-core:6.5.1
+2023-11-08 15:29:35,039 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/ws/xmlschema/xmlschema-core/2.3.1/xmlschema-core-2.3.1-sources.jar
+2023-11-08 15:29:35,327 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/ws/xmlschema/xmlschema-core/2.3.1/xmlschema-core-2.3.1-sources.jar
+2023-11-08 15:29:35,329 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.ws.xmlschema:xmlschema-core:2.3.1
+2023-11-08 15:29:35,662 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-bindings-soap/4.0.3/cxf-rt-bindings-soap-4.0.3-sources.jar
+2023-11-08 15:29:35,934 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-bindings-soap/4.0.3/cxf-rt-bindings-soap-4.0.3-sources.jar
+2023-11-08 15:29:35,939 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.cxf:cxf-rt-bindings-soap:4.0.3
+2023-11-08 15:29:36,527 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/jws/jakarta.jws-api/3.0.0/jakarta.jws-api-3.0.0-sources.jar
+2023-11-08 15:29:36,824 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/jws/jakarta.jws-api/3.0.0/jakarta.jws-api-3.0.0-sources.jar
+2023-11-08 15:29:36,826 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.jws:jakarta.jws-api:3.0.0
+2023-11-08 15:29:37,316 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-wsdl/4.0.3/cxf-rt-wsdl-4.0.3-sources.jar
+2023-11-08 15:29:37,760 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-wsdl/4.0.3/cxf-rt-wsdl-4.0.3-sources.jar
+2023-11-08 15:29:37,765 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.cxf:cxf-rt-wsdl:4.0.3
+2023-11-08 15:29:38,120 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-databinding-jaxb/4.0.3/cxf-rt-databinding-jaxb-4.0.3-sources.jar
+2023-11-08 15:29:38,374 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-databinding-jaxb/4.0.3/cxf-rt-databinding-jaxb-4.0.3-sources.jar
+2023-11-08 15:29:38,376 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.cxf:cxf-rt-databinding-jaxb:4.0.3
+2023-11-08 15:29:38,711 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-bindings-xml/4.0.3/cxf-rt-bindings-xml-4.0.3-sources.jar
+2023-11-08 15:29:39,079 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-bindings-xml/4.0.3/cxf-rt-bindings-xml-4.0.3-sources.jar
+2023-11-08 15:29:39,085 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.cxf:cxf-rt-bindings-xml:4.0.3
+2023-11-08 15:29:39,553 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-frontend-simple/4.0.3/cxf-rt-frontend-simple-4.0.3-sources.jar
+2023-11-08 15:29:39,883 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-frontend-simple/4.0.3/cxf-rt-frontend-simple-4.0.3-sources.jar
+2023-11-08 15:29:39,886 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.cxf:cxf-rt-frontend-simple:4.0.3
+2023-11-08 15:29:40,281 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-mail/1.1.0/angus-mail-1.1.0-sources.jar
+2023-11-08 15:29:40,951 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-mail/1.1.0/angus-mail-1.1.0-sources.jar
+2023-11-08 15:29:40,956 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.angus:angus-mail:1.1.0
+2023-11-08 15:29:41,338 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/mail/jakarta.mail-api/2.1.2/jakarta.mail-api-2.1.2-sources.jar
+2023-11-08 15:29:42,492 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/mail/jakarta.mail-api/2.1.2/jakarta.mail-api-2.1.2-sources.jar
+2023-11-08 15:29:42,495 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.mail:jakarta.mail-api:2.1.2
+2023-11-08 15:29:43,122 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-ws-addr/4.0.3/cxf-rt-ws-addr-4.0.3-sources.jar
+2023-11-08 15:29:43,923 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-ws-addr/4.0.3/cxf-rt-ws-addr-4.0.3-sources.jar
+2023-11-08 15:29:43,928 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.cxf:cxf-rt-ws-addr:4.0.3
+2023-11-08 15:29:46,513 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-ws-policy/4.0.3/cxf-rt-ws-policy-4.0.3-sources.jar
+2023-11-08 15:29:47,915 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-ws-policy/4.0.3/cxf-rt-ws-policy-4.0.3-sources.jar
+2023-11-08 15:29:47,931 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.cxf:cxf-rt-ws-policy:4.0.3
+2023-11-08 15:29:48,278 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:29:48,278 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:29:48,294 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:31:41,806 [Worker-86: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-08 15:31:42,143 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:31:42,143 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:31:42,144 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:31:43,580 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 15:31:43,589 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:31:43,590 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:31:48,011 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 15:31:48,015 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:31:48,017 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:33:09,753 [Worker-87: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-08 15:33:09,900 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.cxf:cxf-rt-frontend-jaxws:jar:4.1.0 is missing, no dependency information available
+2023-11-08 15:33:09,906 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.cxf:cxf-rt-bindings-soap:jar:4.1.0 is missing, no dependency information available
+2023-11-08 15:33:10,080 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:33:10,080 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:33:10,081 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:33:11,238 [Worker-88: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.cxf:cxf-rt-frontend-jaxws:jar:4.1.0 is missing, no dependency information available
+2023-11-08 15:33:11,239 [Worker-88: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.cxf:cxf-rt-bindings-soap:jar:4.1.0 is missing, no dependency information available
+2023-11-08 15:33:11,872 [Worker-88: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-frontend-jaxws/4.1.0/cxf-rt-frontend-jaxws-4.1.0-sources.jar
+2023-11-08 15:33:11,874 [Worker-88: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.apache.cxf:cxf-rt-frontend-jaxws:4.1.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.cxf:cxf-rt-frontend-jaxws:jar:sources:4.1.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-11-08 15:33:12,389 [Worker-88: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-bindings-soap/4.1.0/cxf-rt-bindings-soap-4.1.0-sources.jar
+2023-11-08 15:33:12,390 [Worker-88: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.apache.cxf:cxf-rt-bindings-soap:4.1.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.cxf:cxf-rt-bindings-soap:jar:sources:4.1.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-11-08 15:33:18,164 [Worker-87: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-08 15:33:18,492 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:33:18,492 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:33:18,494 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:33:19,996 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 15:33:20,004 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:33:20,005 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:33:30,676 [Worker-84: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-08 15:33:31,116 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/spring-boot-parent/4.0.0/spring-boot-parent-4.0.0.pom
+2023-11-08 15:33:31,286 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/spring-boot-parent/4.0.0/spring-boot-parent-4.0.0.pom
+2023-11-08 15:33:31,384 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/3.1.2/spring-boot-dependencies-3.1.2.pom
+2023-11-08 15:33:31,657 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/3.1.2/spring-boot-dependencies-3.1.2.pom
+2023-11-08 15:33:31,780 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/groovy/groovy-bom/4.0.13/groovy-bom-4.0.13.pom
+2023-11-08 15:33:31,907 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/groovy/groovy-bom/4.0.13/groovy-bom-4.0.13.pom
+2023-11-08 15:33:32,003 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/infinispan/infinispan-bom/14.0.12.Final/infinispan-bom-14.0.12.Final.pom
+2023-11-08 15:33:32,176 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/infinispan/infinispan-bom/14.0.12.Final/infinispan-bom-14.0.12.Final.pom
+2023-11-08 15:33:32,277 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jersey/jersey-bom/3.1.2/jersey-bom-3.1.2.pom
+2023-11-08 15:33:32,471 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jersey/jersey-bom/3.1.2/jersey-bom-3.1.2.pom
+2023-11-08 15:33:32,581 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/11.0.15/jetty-bom-11.0.15.pom
+2023-11-08 15:33:32,694 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/11.0.15/jetty-bom-11.0.15.pom
+2023-11-08 15:33:32,808 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.11.2/micrometer-bom-1.11.2.pom
+2023-11-08 15:33:32,918 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.11.2/micrometer-bom-1.11.2.pom
+2023-11-08 15:33:33,009 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing-bom/1.1.3/micrometer-tracing-bom-1.1.3.pom
+2023-11-08 15:33:33,121 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing-bom/1.1.3/micrometer-tracing-bom-1.1.3.pom
+2023-11-08 15:33:33,223 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.94.Final/netty-bom-4.1.94.Final.pom
+2023-11-08 15:33:33,331 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.94.Final/netty-bom-4.1.94.Final.pom
+2023-11-08 15:33:33,431 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-amqp-bom/3.0.6/spring-amqp-bom-3.0.6.pom
+2023-11-08 15:33:33,536 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-amqp-bom/3.0.6/spring-amqp-bom-3.0.6.pom
+2023-11-08 15:33:33,630 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/batch/spring-batch-bom/5.0.2/spring-batch-bom-5.0.2.pom
+2023-11-08 15:33:33,756 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/batch/spring-batch-bom/5.0.2/spring-batch-bom-5.0.2.pom
+2023-11-08 15:33:33,853 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-bom/2023.0.2/spring-data-bom-2023.0.2.pom
+2023-11-08 15:33:33,984 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-bom/2023.0.2/spring-data-bom-2023.0.2.pom
+2023-11-08 15:33:34,137 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/6.0.11/spring-framework-bom-6.0.11.pom
+2023-11-08 15:33:34,280 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/6.0.11/spring-framework-bom-6.0.11.pom
+2023-11-08 15:33:34,378 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/6.1.2/spring-integration-bom-6.1.2.pom
+2023-11-08 15:33:34,501 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/6.1.2/spring-integration-bom-6.1.2.pom
+2023-11-08 15:33:34,593 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/6.1.2/spring-security-bom-6.1.2.pom
+2023-11-08 15:33:34,712 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/6.1.2/spring-security-bom-6.1.2.pom
+2023-11-08 15:33:34,798 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws-bom/4.0.5/spring-ws-bom-4.0.5.pom
+2023-11-08 15:33:34,910 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws-bom/4.0.5/spring-ws-bom-4.0.5.pom
+2023-11-08 15:33:35,044 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-spring-boot-dependencies/4.0.0/camel-spring-boot-dependencies-4.0.0.pom
+2023-11-08 15:33:35,343 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-spring-boot-dependencies/4.0.0/camel-spring-boot-dependencies-4.0.0.pom
+2023-11-08 15:33:35,457 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-spring-boot/4.0.0/camel-spring-boot-4.0.0.pom
+2023-11-08 15:33:35,566 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-spring-boot/4.0.0/camel-spring-boot-4.0.0.pom
+2023-11-08 15:33:35,663 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/core-modules/4.0.0/core-modules-4.0.0.pom
+2023-11-08 15:33:35,775 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/core-modules/4.0.0/core-modules-4.0.0.pom
+2023-11-08 15:33:35,862 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-spring/4.0.0/camel-spring-4.0.0.pom
+2023-11-08 15:33:36,024 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-spring/4.0.0/camel-spring-4.0.0.pom
+2023-11-08 15:33:36,281 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-spring-main/4.0.0/camel-spring-main-4.0.0.pom
+2023-11-08 15:33:36,477 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-spring-main/4.0.0/camel-spring-main-4.0.0.pom
+2023-11-08 15:33:36,566 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-main/4.0.0/camel-main-4.0.0.pom
+2023-11-08 15:33:36,671 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-main/4.0.0/camel-main-4.0.0.pom
+2023-11-08 15:33:36,763 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-cloud/4.0.0/camel-cloud-4.0.0.pom
+2023-11-08 15:33:36,879 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-cloud/4.0.0/camel-cloud-4.0.0.pom
+2023-11-08 15:33:36,987 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-core-starter/4.0.0/camel-core-starter-4.0.0.pom
+2023-11-08 15:33:37,253 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-core-starter/4.0.0/camel-core-starter-4.0.0.pom
+2023-11-08 15:33:37,358 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/components-starter/4.0.0/components-starter-4.0.0.pom
+2023-11-08 15:33:37,499 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/components-starter/4.0.0/components-starter-4.0.0.pom
+2023-11-08 15:33:37,608 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-bean-starter/4.0.0/camel-bean-starter-4.0.0.pom
+2023-11-08 15:33:37,761 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-bean-starter/4.0.0/camel-bean-starter-4.0.0.pom
+2023-11-08 15:33:37,849 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-browse-starter/4.0.0/camel-browse-starter-4.0.0.pom
+2023-11-08 15:33:37,965 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-browse-starter/4.0.0/camel-browse-starter-4.0.0.pom
+2023-11-08 15:33:38,158 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-controlbus-starter/4.0.0/camel-controlbus-starter-4.0.0.pom
+2023-11-08 15:33:38,734 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-controlbus-starter/4.0.0/camel-controlbus-starter-4.0.0.pom
+2023-11-08 15:33:38,853 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-dataset-starter/4.0.0/camel-dataset-starter-4.0.0.pom
+2023-11-08 15:33:38,966 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-dataset-starter/4.0.0/camel-dataset-starter-4.0.0.pom
+2023-11-08 15:33:39,110 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-direct-starter/4.0.0/camel-direct-starter-4.0.0.pom
+2023-11-08 15:33:39,252 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-direct-starter/4.0.0/camel-direct-starter-4.0.0.pom
+2023-11-08 15:33:39,365 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-file-starter/4.0.0/camel-file-starter-4.0.0.pom
+2023-11-08 15:33:39,489 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-file-starter/4.0.0/camel-file-starter-4.0.0.pom
+2023-11-08 15:33:39,592 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-language-starter/4.0.0/camel-language-starter-4.0.0.pom
+2023-11-08 15:33:39,733 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-language-starter/4.0.0/camel-language-starter-4.0.0.pom
+2023-11-08 15:33:39,855 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-log-starter/4.0.0/camel-log-starter-4.0.0.pom
+2023-11-08 15:33:39,996 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-log-starter/4.0.0/camel-log-starter-4.0.0.pom
+2023-11-08 15:33:40,086 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-mock-starter/4.0.0/camel-mock-starter-4.0.0.pom
+2023-11-08 15:33:40,198 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-mock-starter/4.0.0/camel-mock-starter-4.0.0.pom
+2023-11-08 15:33:40,289 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-ref-starter/4.0.0/camel-ref-starter-4.0.0.pom
+2023-11-08 15:33:40,412 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-ref-starter/4.0.0/camel-ref-starter-4.0.0.pom
+2023-11-08 15:33:40,502 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-rest-starter/4.0.0/camel-rest-starter-4.0.0.pom
+2023-11-08 15:33:40,609 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-rest-starter/4.0.0/camel-rest-starter-4.0.0.pom
+2023-11-08 15:33:40,716 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-saga-starter/4.0.0/camel-saga-starter-4.0.0.pom
+2023-11-08 15:33:40,824 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-saga-starter/4.0.0/camel-saga-starter-4.0.0.pom
+2023-11-08 15:33:40,925 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-scheduler-starter/4.0.0/camel-scheduler-starter-4.0.0.pom
+2023-11-08 15:33:41,034 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-scheduler-starter/4.0.0/camel-scheduler-starter-4.0.0.pom
+2023-11-08 15:33:41,150 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-seda-starter/4.0.0/camel-seda-starter-4.0.0.pom
+2023-11-08 15:33:41,258 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-seda-starter/4.0.0/camel-seda-starter-4.0.0.pom
+2023-11-08 15:33:41,354 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-stub-starter/4.0.0/camel-stub-starter-4.0.0.pom
+2023-11-08 15:33:41,469 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-stub-starter/4.0.0/camel-stub-starter-4.0.0.pom
+2023-11-08 15:33:41,582 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-timer-starter/4.0.0/camel-timer-starter-4.0.0.pom
+2023-11-08 15:33:41,686 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-timer-starter/4.0.0/camel-timer-starter-4.0.0.pom
+2023-11-08 15:33:41,782 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-validator-starter/4.0.0/camel-validator-starter-4.0.0.pom
+2023-11-08 15:33:41,882 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-validator-starter/4.0.0/camel-validator-starter-4.0.0.pom
+2023-11-08 15:33:41,985 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-xpath-starter/4.0.0/camel-xpath-starter-4.0.0.pom
+2023-11-08 15:33:42,106 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-xpath-starter/4.0.0/camel-xpath-starter-4.0.0.pom
+2023-11-08 15:33:42,201 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-xslt-starter/4.0.0/camel-xslt-starter-4.0.0.pom
+2023-11-08 15:33:42,310 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-xslt-starter/4.0.0/camel-xslt-starter-4.0.0.pom
+2023-11-08 15:33:42,404 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-xml-jaxp-starter/4.0.0/camel-xml-jaxp-starter-4.0.0.pom
+2023-11-08 15:33:42,508 [Worker-84: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-xml-jaxp-starter/4.0.0/camel-xml-jaxp-starter-4.0.0.pom
+2023-11-08 15:33:42,634 [AetherRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-spring/4.0.0/camel-spring-4.0.0.jar
+2023-11-08 15:33:42,797 [AetherRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-main/4.0.0/camel-main-4.0.0.jar
+2023-11-08 15:33:42,818 [AetherRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-spring-main/4.0.0/camel-spring-main-4.0.0.jar
+2023-11-08 15:33:42,818 [AetherRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-spring-boot/4.0.0/camel-spring-boot-4.0.0.jar
+2023-11-08 15:33:42,818 [AetherRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-spring-boot-starter/4.0.0/camel-spring-boot-starter-4.0.0.jar
+2023-11-08 15:33:43,155 [AetherRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-spring/4.0.0/camel-spring-4.0.0.jar
+2023-11-08 15:33:43,156 [AetherRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-spring-boot-starter/4.0.0/camel-spring-boot-starter-4.0.0.jar
+2023-11-08 15:33:43,388 [AetherRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-spring-main/4.0.0/camel-spring-main-4.0.0.jar
+2023-11-08 15:33:43,462 [AetherRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-core-starter/4.0.0/camel-core-starter-4.0.0.jar
+2023-11-08 15:33:43,543 [AetherRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-bean-starter/4.0.0/camel-bean-starter-4.0.0.jar
+2023-11-08 15:33:43,596 [AetherRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-browse-starter/4.0.0/camel-browse-starter-4.0.0.jar
+2023-11-08 15:33:43,609 [AetherRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-main/4.0.0/camel-main-4.0.0.jar
+2023-11-08 15:33:43,609 [AetherRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-spring-boot/4.0.0/camel-spring-boot-4.0.0.jar
+2023-11-08 15:33:43,683 [AetherRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-core-starter/4.0.0/camel-core-starter-4.0.0.jar
+2023-11-08 15:33:43,781 [AetherRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-dataformat-starter/4.0.0/camel-dataformat-starter-4.0.0.jar
+2023-11-08 15:33:43,794 [AetherRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-controlbus-starter/4.0.0/camel-controlbus-starter-4.0.0.jar
+2023-11-08 15:33:43,857 [AetherRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-browse-starter/4.0.0/camel-browse-starter-4.0.0.jar
+2023-11-08 15:33:43,884 [AetherRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-dataset-starter/4.0.0/camel-dataset-starter-4.0.0.jar
+2023-11-08 15:33:43,940 [AetherRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-direct-starter/4.0.0/camel-direct-starter-4.0.0.jar
+2023-11-08 15:33:43,989 [AetherRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-bean-starter/4.0.0/camel-bean-starter-4.0.0.jar
+2023-11-08 15:33:44,077 [AetherRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-controlbus-starter/4.0.0/camel-controlbus-starter-4.0.0.jar
+2023-11-08 15:33:44,084 [AetherRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-dataformat-starter/4.0.0/camel-dataformat-starter-4.0.0.jar
+2023-11-08 15:33:44,088 [AetherRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-file-starter/4.0.0/camel-file-starter-4.0.0.jar
+2023-11-08 15:33:44,163 [AetherRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-dataset-starter/4.0.0/camel-dataset-starter-4.0.0.jar
+2023-11-08 15:33:44,183 [AetherRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-language-starter/4.0.0/camel-language-starter-4.0.0.jar
+2023-11-08 15:33:44,193 [AetherRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-log-starter/4.0.0/camel-log-starter-4.0.0.jar
+2023-11-08 15:33:44,246 [AetherRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-mock-starter/4.0.0/camel-mock-starter-4.0.0.jar
+2023-11-08 15:33:44,257 [AetherRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-direct-starter/4.0.0/camel-direct-starter-4.0.0.jar
+2023-11-08 15:33:44,393 [AetherRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-file-starter/4.0.0/camel-file-starter-4.0.0.jar
+2023-11-08 15:33:44,393 [AetherRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-language-starter/4.0.0/camel-language-starter-4.0.0.jar
+2023-11-08 15:33:44,454 [AetherRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-ref-starter/4.0.0/camel-ref-starter-4.0.0.jar
+2023-11-08 15:33:44,540 [AetherRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-log-starter/4.0.0/camel-log-starter-4.0.0.jar
+2023-11-08 15:33:44,579 [AetherRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-rest-starter/4.0.0/camel-rest-starter-4.0.0.jar
+2023-11-08 15:33:44,595 [AetherRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-saga-starter/4.0.0/camel-saga-starter-4.0.0.jar
+2023-11-08 15:33:44,656 [AetherRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-scheduler-starter/4.0.0/camel-scheduler-starter-4.0.0.jar
+2023-11-08 15:33:44,672 [AetherRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-mock-starter/4.0.0/camel-mock-starter-4.0.0.jar
+2023-11-08 15:33:44,734 [AetherRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-ref-starter/4.0.0/camel-ref-starter-4.0.0.jar
+2023-11-08 15:33:44,762 [AetherRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-seda-starter/4.0.0/camel-seda-starter-4.0.0.jar
+2023-11-08 15:33:44,855 [AetherRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-stub-starter/4.0.0/camel-stub-starter-4.0.0.jar
+2023-11-08 15:33:44,916 [AetherRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-scheduler-starter/4.0.0/camel-scheduler-starter-4.0.0.jar
+2023-11-08 15:33:44,917 [AetherRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-saga-starter/4.0.0/camel-saga-starter-4.0.0.jar
+2023-11-08 15:33:44,923 [AetherRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-rest-starter/4.0.0/camel-rest-starter-4.0.0.jar
+2023-11-08 15:33:45,008 [AetherRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-seda-starter/4.0.0/camel-seda-starter-4.0.0.jar
+2023-11-08 15:33:45,046 [AetherRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-timer-starter/4.0.0/camel-timer-starter-4.0.0.jar
+2023-11-08 15:33:45,046 [AetherRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-xpath-starter/4.0.0/camel-xpath-starter-4.0.0.jar
+2023-11-08 15:33:45,054 [AetherRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-validator-starter/4.0.0/camel-validator-starter-4.0.0.jar
+2023-11-08 15:33:45,117 [AetherRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-xslt-starter/4.0.0/camel-xslt-starter-4.0.0.jar
+2023-11-08 15:33:45,126 [AetherRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-stub-starter/4.0.0/camel-stub-starter-4.0.0.jar
+2023-11-08 15:33:45,211 [AetherRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-xml-jaxp-starter/4.0.0/camel-xml-jaxp-starter-4.0.0.jar
+2023-11-08 15:33:45,260 [AetherRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-xpath-starter/4.0.0/camel-xpath-starter-4.0.0.jar
+2023-11-08 15:33:45,355 [AetherRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-timer-starter/4.0.0/camel-timer-starter-4.0.0.jar
+2023-11-08 15:33:45,366 [AetherRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-xml-jaxp-starter/4.0.0/camel-xml-jaxp-starter-4.0.0.jar
+2023-11-08 15:33:45,379 [AetherRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-validator-starter/4.0.0/camel-validator-starter-4.0.0.jar
+2023-11-08 15:33:45,413 [AetherRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-xslt-starter/4.0.0/camel-xslt-starter-4.0.0.jar
+2023-11-08 15:33:45,571 [Worker-84: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-08 15:33:47,037 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:33:47,037 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:33:47,038 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:33:48,393 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 15:33:48,402 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:33:48,403 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:33:48,845 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-spring-boot-starter/4.0.0/camel-spring-boot-starter-4.0.0-sources.jar
+2023-11-08 15:33:49,075 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-spring-boot-starter/4.0.0/camel-spring-boot-starter-4.0.0-sources.jar
+2023-11-08 15:33:49,078 [Worker-84: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel.springboot:camel-spring-boot-starter:4.0.0
+2023-11-08 15:33:49,425 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-spring-boot/4.0.0/camel-spring-boot-4.0.0-sources.jar
+2023-11-08 15:33:50,044 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-spring-boot/4.0.0/camel-spring-boot-4.0.0-sources.jar
+2023-11-08 15:33:50,047 [Worker-84: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel.springboot:camel-spring-boot:4.0.0
+2023-11-08 15:33:50,383 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-spring/4.0.0/camel-spring-4.0.0-sources.jar
+2023-11-08 15:33:50,689 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-spring/4.0.0/camel-spring-4.0.0-sources.jar
+2023-11-08 15:33:50,692 [Worker-84: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-spring:4.0.0
+2023-11-08 15:33:51,119 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-spring-main/4.0.0/camel-spring-main-4.0.0-sources.jar
+2023-11-08 15:33:51,285 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-spring-main/4.0.0/camel-spring-main-4.0.0-sources.jar
+2023-11-08 15:33:51,288 [Worker-84: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-spring-main:4.0.0
+2023-11-08 15:33:51,646 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-main/4.0.0/camel-main-4.0.0-sources.jar
+2023-11-08 15:33:51,981 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-main/4.0.0/camel-main-4.0.0-sources.jar
+2023-11-08 15:33:51,984 [Worker-84: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-main:4.0.0
+2023-11-08 15:33:52,427 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-core-starter/4.0.0/camel-core-starter-4.0.0-sources.jar
+2023-11-08 15:33:53,023 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-core-starter/4.0.0/camel-core-starter-4.0.0-sources.jar
+2023-11-08 15:33:53,026 [Worker-84: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel.springboot:camel-core-starter:4.0.0
+2023-11-08 15:33:53,449 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-bean-starter/4.0.0/camel-bean-starter-4.0.0-sources.jar
+2023-11-08 15:33:53,795 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-bean-starter/4.0.0/camel-bean-starter-4.0.0-sources.jar
+2023-11-08 15:33:53,797 [Worker-84: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel.springboot:camel-bean-starter:4.0.0
+2023-11-08 15:33:54,138 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-browse-starter/4.0.0/camel-browse-starter-4.0.0-sources.jar
+2023-11-08 15:33:54,310 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-browse-starter/4.0.0/camel-browse-starter-4.0.0-sources.jar
+2023-11-08 15:33:54,314 [Worker-84: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel.springboot:camel-browse-starter:4.0.0
+2023-11-08 15:33:54,691 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-controlbus-starter/4.0.0/camel-controlbus-starter-4.0.0-sources.jar
+2023-11-08 15:33:54,869 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-controlbus-starter/4.0.0/camel-controlbus-starter-4.0.0-sources.jar
+2023-11-08 15:33:54,871 [Worker-84: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel.springboot:camel-controlbus-starter:4.0.0
+2023-11-08 15:33:55,325 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-dataformat-starter/4.0.0/camel-dataformat-starter-4.0.0-sources.jar
+2023-11-08 15:33:55,534 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-dataformat-starter/4.0.0/camel-dataformat-starter-4.0.0-sources.jar
+2023-11-08 15:33:55,537 [Worker-84: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel.springboot:camel-dataformat-starter:4.0.0
+2023-11-08 15:33:56,190 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-dataset-starter/4.0.0/camel-dataset-starter-4.0.0-sources.jar
+2023-11-08 15:33:56,534 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-dataset-starter/4.0.0/camel-dataset-starter-4.0.0-sources.jar
+2023-11-08 15:33:56,536 [Worker-84: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel.springboot:camel-dataset-starter:4.0.0
+2023-11-08 15:33:56,960 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-direct-starter/4.0.0/camel-direct-starter-4.0.0-sources.jar
+2023-11-08 15:33:57,252 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-direct-starter/4.0.0/camel-direct-starter-4.0.0-sources.jar
+2023-11-08 15:33:57,255 [Worker-84: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel.springboot:camel-direct-starter:4.0.0
+2023-11-08 15:33:57,604 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-file-starter/4.0.0/camel-file-starter-4.0.0-sources.jar
+2023-11-08 15:33:57,904 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-file-starter/4.0.0/camel-file-starter-4.0.0-sources.jar
+2023-11-08 15:33:57,906 [Worker-84: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel.springboot:camel-file-starter:4.0.0
+2023-11-08 15:33:58,239 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-language-starter/4.0.0/camel-language-starter-4.0.0-sources.jar
+2023-11-08 15:33:58,437 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-language-starter/4.0.0/camel-language-starter-4.0.0-sources.jar
+2023-11-08 15:33:58,440 [Worker-84: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel.springboot:camel-language-starter:4.0.0
+2023-11-08 15:33:58,795 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-log-starter/4.0.0/camel-log-starter-4.0.0-sources.jar
+2023-11-08 15:33:59,134 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-log-starter/4.0.0/camel-log-starter-4.0.0-sources.jar
+2023-11-08 15:33:59,137 [Worker-84: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel.springboot:camel-log-starter:4.0.0
+2023-11-08 15:33:59,575 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-mock-starter/4.0.0/camel-mock-starter-4.0.0-sources.jar
+2023-11-08 15:33:59,927 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-mock-starter/4.0.0/camel-mock-starter-4.0.0-sources.jar
+2023-11-08 15:33:59,931 [Worker-84: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel.springboot:camel-mock-starter:4.0.0
+2023-11-08 15:34:00,266 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-ref-starter/4.0.0/camel-ref-starter-4.0.0-sources.jar
+2023-11-08 15:34:00,457 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-ref-starter/4.0.0/camel-ref-starter-4.0.0-sources.jar
+2023-11-08 15:34:00,460 [Worker-84: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel.springboot:camel-ref-starter:4.0.0
+2023-11-08 15:34:00,812 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-rest-starter/4.0.0/camel-rest-starter-4.0.0-sources.jar
+2023-11-08 15:34:01,153 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-rest-starter/4.0.0/camel-rest-starter-4.0.0-sources.jar
+2023-11-08 15:34:01,156 [Worker-84: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel.springboot:camel-rest-starter:4.0.0
+2023-11-08 15:34:01,695 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-saga-starter/4.0.0/camel-saga-starter-4.0.0-sources.jar
+2023-11-08 15:34:01,976 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-saga-starter/4.0.0/camel-saga-starter-4.0.0-sources.jar
+2023-11-08 15:34:01,978 [Worker-84: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel.springboot:camel-saga-starter:4.0.0
+2023-11-08 15:34:02,527 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-scheduler-starter/4.0.0/camel-scheduler-starter-4.0.0-sources.jar
+2023-11-08 15:34:02,940 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-scheduler-starter/4.0.0/camel-scheduler-starter-4.0.0-sources.jar
+2023-11-08 15:34:02,942 [Worker-84: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel.springboot:camel-scheduler-starter:4.0.0
+2023-11-08 15:34:03,546 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-seda-starter/4.0.0/camel-seda-starter-4.0.0-sources.jar
+2023-11-08 15:34:03,740 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-seda-starter/4.0.0/camel-seda-starter-4.0.0-sources.jar
+2023-11-08 15:34:03,743 [Worker-84: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel.springboot:camel-seda-starter:4.0.0
+2023-11-08 15:34:04,165 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-stub-starter/4.0.0/camel-stub-starter-4.0.0-sources.jar
+2023-11-08 15:34:04,485 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-stub-starter/4.0.0/camel-stub-starter-4.0.0-sources.jar
+2023-11-08 15:34:04,489 [Worker-84: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel.springboot:camel-stub-starter:4.0.0
+2023-11-08 15:34:04,923 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-timer-starter/4.0.0/camel-timer-starter-4.0.0-sources.jar
+2023-11-08 15:34:05,219 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-timer-starter/4.0.0/camel-timer-starter-4.0.0-sources.jar
+2023-11-08 15:34:05,223 [Worker-84: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel.springboot:camel-timer-starter:4.0.0
+2023-11-08 15:34:05,644 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-validator-starter/4.0.0/camel-validator-starter-4.0.0-sources.jar
+2023-11-08 15:34:05,910 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-validator-starter/4.0.0/camel-validator-starter-4.0.0-sources.jar
+2023-11-08 15:34:05,912 [Worker-84: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel.springboot:camel-validator-starter:4.0.0
+2023-11-08 15:34:06,267 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-xpath-starter/4.0.0/camel-xpath-starter-4.0.0-sources.jar
+2023-11-08 15:34:06,490 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-xpath-starter/4.0.0/camel-xpath-starter-4.0.0-sources.jar
+2023-11-08 15:34:06,493 [Worker-84: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel.springboot:camel-xpath-starter:4.0.0
+2023-11-08 15:34:06,943 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-xslt-starter/4.0.0/camel-xslt-starter-4.0.0-sources.jar
+2023-11-08 15:34:07,173 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-xslt-starter/4.0.0/camel-xslt-starter-4.0.0-sources.jar
+2023-11-08 15:34:07,176 [Worker-84: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel.springboot:camel-xslt-starter:4.0.0
+2023-11-08 15:34:07,518 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-xml-jaxp-starter/4.0.0/camel-xml-jaxp-starter-4.0.0-sources.jar
+2023-11-08 15:34:07,770 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-xml-jaxp-starter/4.0.0/camel-xml-jaxp-starter-4.0.0-sources.jar
+2023-11-08 15:34:07,775 [Worker-84: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel.springboot:camel-xml-jaxp-starter:4.0.0
+2023-11-08 15:34:08,044 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:34:08,044 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:34:08,044 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:35:24,329 [Worker-89: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-08 15:35:24,377 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.camel.springboot:camel-spring-boot-starter:jar:4.0.3 is missing, no dependency information available
+2023-11-08 15:35:24,541 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:35:24,541 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:35:24,542 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:35:25,625 [Worker-84: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.camel.springboot:camel-spring-boot-starter:jar:4.0.3 is missing, no dependency information available
+2023-11-08 15:35:26,234 [Worker-84: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/springboot/camel-spring-boot-starter/4.0.3/camel-spring-boot-starter-4.0.3-sources.jar
+2023-11-08 15:35:26,235 [Worker-84: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.apache.camel.springboot:camel-spring-boot-starter:4.0.3
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.camel.springboot:camel-spring-boot-starter:jar:sources:4.0.3
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-11-08 15:35:58,141 [Worker-73: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-08 15:35:58,147 [Worker-73: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.camel:camel-http:jar:4.0.3 is missing, no dependency information available
+2023-11-08 15:35:58,441 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:35:58,442 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:35:58,442 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:35:59,435 [Worker-88: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.camel:camel-http:jar:4.0.3 is missing, no dependency information available
+2023-11-08 15:36:00,448 [Worker-88: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-http/4.0.3/camel-http-4.0.3-sources.jar
+2023-11-08 15:36:00,452 [Worker-88: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.apache.camel:camel-http:4.0.3
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.camel:camel-http:jar:sources:4.0.3
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-11-08 15:36:27,446 [Worker-90: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-08 15:36:27,918 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-parent/4.0.2/camel-parent-4.0.2.pom
+2023-11-08 15:36:28,213 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-parent/4.0.2/camel-parent-4.0.2.pom
+2023-11-08 15:36:28,325 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-cloud/4.0.2/camel-cloud-4.0.2.pom
+2023-11-08 15:36:28,445 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-cloud/4.0.2/camel-cloud-4.0.2.pom
+2023-11-08 15:36:28,569 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/core/4.0.2/core-4.0.2.pom
+2023-11-08 15:36:28,692 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/core/4.0.2/core-4.0.2.pom
+2023-11-08 15:36:28,872 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-core-model/4.0.2/camel-core-model-4.0.2.pom
+2023-11-08 15:36:29,096 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-core-model/4.0.2/camel-core-model-4.0.2.pom
+2023-11-08 15:36:29,269 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-api/4.0.2/camel-api-4.0.2.pom
+2023-11-08 15:36:29,488 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-api/4.0.2/camel-api-4.0.2.pom
+2023-11-08 15:36:30,320 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-util/4.0.2/camel-util-4.0.2.pom
+2023-11-08 15:36:30,525 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-util/4.0.2/camel-util-4.0.2.pom
+2023-11-08 15:36:30,698 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-core-processor/4.0.2/camel-core-processor-4.0.2.pom
+2023-11-08 15:36:30,913 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-core-processor/4.0.2/camel-core-processor-4.0.2.pom
+2023-11-08 15:36:31,082 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-support/4.0.2/camel-support-4.0.2.pom
+2023-11-08 15:36:31,219 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-support/4.0.2/camel-support-4.0.2.pom
+2023-11-08 15:36:31,434 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-management-api/4.0.2/camel-management-api-4.0.2.pom
+2023-11-08 15:36:31,626 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-management-api/4.0.2/camel-management-api-4.0.2.pom
+2023-11-08 15:36:31,796 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-util-json/4.0.2/camel-util-json-4.0.2.pom
+2023-11-08 15:36:31,996 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-util-json/4.0.2/camel-util-json-4.0.2.pom
+2023-11-08 15:36:32,165 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/tooling/4.0.2/tooling-4.0.2.pom
+2023-11-08 15:36:32,354 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/tooling/4.0.2/tooling-4.0.2.pom
+2023-11-08 15:36:32,559 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-xml-jaxp-util/4.0.2/camel-xml-jaxp-util-4.0.2.pom
+2023-11-08 15:36:32,749 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-xml-jaxp-util/4.0.2/camel-xml-jaxp-util-4.0.2.pom
+2023-11-08 15:36:32,835 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-http-common/4.0.2/camel-http-common-4.0.2.pom
+2023-11-08 15:36:33,045 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-http-common/4.0.2/camel-http-common-4.0.2.pom
+2023-11-08 15:36:33,218 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-http-base/4.0.2/camel-http-base-4.0.2.pom
+2023-11-08 15:36:33,426 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-http-base/4.0.2/camel-http-base-4.0.2.pom
+2023-11-08 15:36:33,615 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-attachments/4.0.2/camel-attachments-4.0.2.pom
+2023-11-08 15:36:33,797 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-attachments/4.0.2/camel-attachments-4.0.2.pom
+2023-11-08 15:36:33,912 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-file/4.0.2/camel-file-4.0.2.pom
+2023-11-08 15:36:34,169 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-file/4.0.2/camel-file-4.0.2.pom
+2023-11-08 15:36:34,314 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-cluster/4.0.2/camel-cluster-4.0.2.pom
+2023-11-08 15:36:34,674 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-cluster/4.0.2/camel-cluster-4.0.2.pom
+2023-11-08 15:36:34,847 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-base-engine/4.0.2/camel-base-engine-4.0.2.pom
+2023-11-08 15:36:35,050 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-base-engine/4.0.2/camel-base-engine-4.0.2.pom
+2023-11-08 15:36:35,220 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-base/4.0.2/camel-base-4.0.2.pom
+2023-11-08 15:36:35,448 [Worker-90: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-base/4.0.2/camel-base-4.0.2.pom
+2023-11-08 15:36:35,783 [AetherRepositoryConnector-repo.maven.apache.org-3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-cloud/4.0.2/camel-cloud-4.0.2.jar
+2023-11-08 15:36:35,869 [AetherRepositoryConnector-repo.maven.apache.org-3-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-api/4.0.2/camel-api-4.0.2.jar
+2023-11-08 15:36:35,891 [AetherRepositoryConnector-repo.maven.apache.org-3-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-core-model/4.0.2/camel-core-model-4.0.2.jar
+2023-11-08 15:36:35,891 [AetherRepositoryConnector-repo.maven.apache.org-3-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-core-processor/4.0.2/camel-core-processor-4.0.2.jar
+2023-11-08 15:36:35,891 [AetherRepositoryConnector-repo.maven.apache.org-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-http/4.0.2/camel-http-4.0.2.jar
+2023-11-08 15:36:36,600 [AetherRepositoryConnector-repo.maven.apache.org-3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-cloud/4.0.2/camel-cloud-4.0.2.jar
+2023-11-08 15:36:36,835 [AetherRepositoryConnector-repo.maven.apache.org-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-http/4.0.2/camel-http-4.0.2.jar
+2023-11-08 15:36:36,913 [AetherRepositoryConnector-repo.maven.apache.org-3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-util/4.0.2/camel-util-4.0.2.jar
+2023-11-08 15:36:37,274 [AetherRepositoryConnector-repo.maven.apache.org-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-http-common/4.0.2/camel-http-common-4.0.2.jar
+2023-11-08 15:36:38,007 [AetherRepositoryConnector-repo.maven.apache.org-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-http-common/4.0.2/camel-http-common-4.0.2.jar
+2023-11-08 15:36:38,049 [AetherRepositoryConnector-repo.maven.apache.org-3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-util/4.0.2/camel-util-4.0.2.jar
+2023-11-08 15:36:38,146 [AetherRepositoryConnector-repo.maven.apache.org-3-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-core-processor/4.0.2/camel-core-processor-4.0.2.jar
+2023-11-08 15:36:38,191 [AetherRepositoryConnector-repo.maven.apache.org-3-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-api/4.0.2/camel-api-4.0.2.jar
+2023-11-08 15:36:38,215 [AetherRepositoryConnector-repo.maven.apache.org-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-http-base/4.0.2/camel-http-base-4.0.2.jar
+2023-11-08 15:36:38,270 [AetherRepositoryConnector-repo.maven.apache.org-3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-support/4.0.2/camel-support-4.0.2.jar
+2023-11-08 15:36:38,875 [AetherRepositoryConnector-repo.maven.apache.org-3-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-xml-jaxp-util/4.0.2/camel-xml-jaxp-util-4.0.2.jar
+2023-11-08 15:36:38,875 [AetherRepositoryConnector-repo.maven.apache.org-3-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-management-api/4.0.2/camel-management-api-4.0.2.jar
+2023-11-08 15:36:38,904 [AetherRepositoryConnector-repo.maven.apache.org-3-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-core-model/4.0.2/camel-core-model-4.0.2.jar
+2023-11-08 15:36:38,905 [AetherRepositoryConnector-repo.maven.apache.org-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-http-base/4.0.2/camel-http-base-4.0.2.jar
+2023-11-08 15:36:42,749 [AetherRepositoryConnector-repo.maven.apache.org-3-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-attachments/4.0.2/camel-attachments-4.0.2.jar
+2023-11-08 15:36:42,792 [AetherRepositoryConnector-repo.maven.apache.org-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-file/4.0.2/camel-file-4.0.2.jar
+2023-11-08 15:36:43,527 [AetherRepositoryConnector-repo.maven.apache.org-3-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-xml-jaxp-util/4.0.2/camel-xml-jaxp-util-4.0.2.jar
+2023-11-08 15:36:43,531 [AetherRepositoryConnector-repo.maven.apache.org-3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-support/4.0.2/camel-support-4.0.2.jar
+2023-11-08 15:36:43,531 [AetherRepositoryConnector-repo.maven.apache.org-3-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-attachments/4.0.2/camel-attachments-4.0.2.jar
+2023-11-08 15:36:43,532 [AetherRepositoryConnector-repo.maven.apache.org-3-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-management-api/4.0.2/camel-management-api-4.0.2.jar
+2023-11-08 15:36:43,698 [AetherRepositoryConnector-repo.maven.apache.org-3-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-cluster/4.0.2/camel-cluster-4.0.2.jar
+2023-11-08 15:36:43,758 [AetherRepositoryConnector-repo.maven.apache.org-3-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-base/4.0.2/camel-base-4.0.2.jar
+2023-11-08 15:36:43,776 [AetherRepositoryConnector-repo.maven.apache.org-3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-base-engine/4.0.2/camel-base-engine-4.0.2.jar
+2023-11-08 15:36:43,814 [AetherRepositoryConnector-repo.maven.apache.org-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-file/4.0.2/camel-file-4.0.2.jar
+2023-11-08 15:36:44,010 [AetherRepositoryConnector-repo.maven.apache.org-3-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-cluster/4.0.2/camel-cluster-4.0.2.jar
+2023-11-08 15:36:44,678 [AetherRepositoryConnector-repo.maven.apache.org-3-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-base/4.0.2/camel-base-4.0.2.jar
+2023-11-08 15:36:45,439 [AetherRepositoryConnector-repo.maven.apache.org-3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-base-engine/4.0.2/camel-base-engine-4.0.2.jar
+2023-11-08 15:36:45,862 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:36:45,862 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:36:45,863 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:36:46,562 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 15:36:46,570 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:36:46,570 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:36:47,355 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-http/4.0.2/camel-http-4.0.2-sources.jar
+2023-11-08 15:36:47,670 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-http/4.0.2/camel-http-4.0.2-sources.jar
+2023-11-08 15:36:47,672 [Worker-89: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-http:4.0.2
+2023-11-08 15:36:47,706 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 15:36:47,707 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:36:47,708 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:36:48,316 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-cloud/4.0.2/camel-cloud-4.0.2-sources.jar
+2023-11-08 15:36:48,629 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-cloud/4.0.2/camel-cloud-4.0.2-sources.jar
+2023-11-08 15:36:48,633 [Worker-89: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-cloud:4.0.2
+2023-11-08 15:36:49,116 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-core-model/4.0.2/camel-core-model-4.0.2-sources.jar
+2023-11-08 15:36:50,159 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-core-model/4.0.2/camel-core-model-4.0.2-sources.jar
+2023-11-08 15:36:50,161 [Worker-89: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-core-model:4.0.2
+2023-11-08 15:36:50,602 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-api/4.0.2/camel-api-4.0.2-sources.jar
+2023-11-08 15:36:51,411 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-api/4.0.2/camel-api-4.0.2-sources.jar
+2023-11-08 15:36:51,413 [Worker-89: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-api:4.0.2
+2023-11-08 15:36:51,918 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-core-processor/4.0.2/camel-core-processor-4.0.2-sources.jar
+2023-11-08 15:36:57,170 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-core-processor/4.0.2/camel-core-processor-4.0.2-sources.jar
+2023-11-08 15:36:57,172 [Worker-89: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-core-processor:4.0.2
+2023-11-08 15:36:57,530 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-util/4.0.2/camel-util-4.0.2-sources.jar
+2023-11-08 15:36:57,943 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-util/4.0.2/camel-util-4.0.2-sources.jar
+2023-11-08 15:36:57,945 [Worker-89: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-util:4.0.2
+2023-11-08 15:36:58,388 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-http-common/4.0.2/camel-http-common-4.0.2-sources.jar
+2023-11-08 15:36:58,701 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-http-common/4.0.2/camel-http-common-4.0.2-sources.jar
+2023-11-08 15:36:58,703 [Worker-89: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-http-common:4.0.2
+2023-11-08 15:36:59,125 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-http-base/4.0.2/camel-http-base-4.0.2-sources.jar
+2023-11-08 15:36:59,465 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-http-base/4.0.2/camel-http-base-4.0.2-sources.jar
+2023-11-08 15:36:59,469 [Worker-89: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-http-base:4.0.2
+2023-11-08 15:36:59,900 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-support/4.0.2/camel-support-4.0.2-sources.jar
+2023-11-08 15:37:00,664 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-support/4.0.2/camel-support-4.0.2-sources.jar
+2023-11-08 15:37:00,670 [Worker-89: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-support:4.0.2
+2023-11-08 15:37:00,801 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 15:37:00,802 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:37:00,803 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:37:00,995 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-management-api/4.0.2/camel-management-api-4.0.2-sources.jar
+2023-11-08 15:37:01,259 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-management-api/4.0.2/camel-management-api-4.0.2-sources.jar
+2023-11-08 15:37:01,267 [Worker-89: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-management-api:4.0.2
+2023-11-08 15:37:01,700 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-xml-jaxp-util/4.0.2/camel-xml-jaxp-util-4.0.2-sources.jar
+2023-11-08 15:37:01,963 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-xml-jaxp-util/4.0.2/camel-xml-jaxp-util-4.0.2-sources.jar
+2023-11-08 15:37:01,971 [Worker-89: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-xml-jaxp-util:4.0.2
+2023-11-08 15:37:02,303 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-attachments/4.0.2/camel-attachments-4.0.2-sources.jar
+2023-11-08 15:37:02,700 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-attachments/4.0.2/camel-attachments-4.0.2-sources.jar
+2023-11-08 15:37:02,706 [Worker-89: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-attachments:4.0.2
+2023-11-08 15:37:03,145 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-file/4.0.2/camel-file-4.0.2-sources.jar
+2023-11-08 15:37:03,534 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-file/4.0.2/camel-file-4.0.2-sources.jar
+2023-11-08 15:37:03,541 [Worker-89: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-file:4.0.2
+2023-11-08 15:37:03,869 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-cluster/4.0.2/camel-cluster-4.0.2-sources.jar
+2023-11-08 15:37:04,184 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-cluster/4.0.2/camel-cluster-4.0.2-sources.jar
+2023-11-08 15:37:04,193 [Worker-89: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-cluster:4.0.2
+2023-11-08 15:37:04,641 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-base-engine/4.0.2/camel-base-engine-4.0.2-sources.jar
+2023-11-08 15:37:05,337 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-base-engine/4.0.2/camel-base-engine-4.0.2-sources.jar
+2023-11-08 15:37:05,345 [Worker-89: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-base-engine:4.0.2
+2023-11-08 15:37:05,961 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-base/4.0.2/camel-base-4.0.2-sources.jar
+2023-11-08 15:37:06,413 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-base/4.0.2/camel-base-4.0.2-sources.jar
+2023-11-08 15:37:06,420 [Worker-89: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-base:4.0.2
+2023-11-08 15:37:06,938 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:37:06,938 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:37:06,939 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:37:28,132 [Worker-87: Launching Executing clean in D__Integration Tasks_SoapCSVTask_SendLoyaltyEarningReportApp] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp
+2023-11-08 15:37:28,141 [Worker-87: Launching Executing clean in D__Integration Tasks_SoapCSVTask_SendLoyaltyEarningReportApp] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean -Dstyle.color=always -Dstyle.color=always
+2023-11-08 15:37:33,228 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 15:37:33,229 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:37:33,229 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:46:52,125 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 15:46:52,129 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:46:52,130 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:47:21,691 [Worker-95: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-08 15:47:21,983 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:47:21,983 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:47:21,984 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:47:23,559 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 15:47:23,566 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:47:23,567 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-08 15:50:49,580 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-11-08 15:51:13,269 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-08 15:51:20,481 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-08 15:51:20,512 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-08 15:51:20,528 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-09 09:52:26,800 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-11-09 09:52:46,514 [Worker-10: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-09 09:52:51,551 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-09 09:52:51,567 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-09 09:52:51,582 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-09 11:01:27,147 [Worker-15: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-09 11:01:47,194 [Worker-14: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.camel:camel-cxf:jar:4.0.0 is missing, no dependency information available
+2023-11-09 11:01:47,903 [Worker-15: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-09 11:01:48,206 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.camel:camel-cxf:jar:4.0.0 is missing, no dependency information available
+2023-11-09 11:01:48,507 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-09 11:01:48,507 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-09 11:01:48,509 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-09 11:01:52,507 [Worker-17: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.camel:camel-cxf:jar:4.0.1 is missing, no dependency information available
+2023-11-09 11:01:53,109 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-09 11:01:53,315 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.camel:camel-cxf:jar:4.0.1 is missing, no dependency information available
+2023-11-09 11:01:53,594 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-09 11:01:53,594 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-09 11:01:53,596 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-09 11:01:54,918 [Worker-1: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.camel:camel-cxf:jar:4.0.1 is missing, no dependency information available
+2023-11-09 11:01:55,412 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-cxf/4.0.1/camel-cxf-4.0.1-sources.jar
+2023-11-09 11:01:55,419 [Worker-1: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.apache.camel:camel-cxf:4.0.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.camel:camel-cxf:jar:sources:4.0.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-11-09 11:02:24,039 [Worker-17: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SendLoyaltyEarningReportApp:0.0.1-SNAPSHOT @ D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\pom.xml.
+2023-11-09 11:02:26,502 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-09 11:02:26,502 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-09 11:02:26,505 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
+2023-11-09 11:02:28,369 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-09 11:02:28,384 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-09 11:02:28,386 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Integration Tasks\SoapCSVTask\SendLoyaltyEarningReportApp\src\test\resources
