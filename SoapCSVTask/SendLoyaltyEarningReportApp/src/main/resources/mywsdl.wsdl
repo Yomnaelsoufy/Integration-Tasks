@@ -1,0 +1,155 @@
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:sch="http://www.fintechwalletwebservices.com/FileUpload" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.fintechwalletwebservices.com/FileUpload" targetNamespace="http://www.fintechwalletwebservices.com/FileUpload">
+<wsdl:types>
+<xsd:schema xmlns="http://www.fintechwalletwebservices.com/FileUpload" xmlns:xsd="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.fintechwalletwebservices.com/FileUpload">
+<xsd:element name="FileUploadRequest" type="FileUploadRequest_Type"/>
+<xsd:element name="RequestContext" type="RequestContext_Type"/>
+<xsd:element name="ResponseContext" type="ResponseContext_Type"/>
+<xsd:complexType name="FileUploadRequest_Type">
+<xsd:sequence>
+<xsd:element name="FileID" type="FileID_Type"/>
+<xsd:element name="FileType" type="FileType_Type"/>
+<xsd:element name="FileName" type="FileName_Type"/>
+<xsd:element name="AttachmentID" type="AttachmentID_Type"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="RequestContext_Type">
+<xsd:sequence>
+<xsd:element name="RequestID" type="RqID_Type"/>
+<xsd:element name="ServiceName" type="SrvcName_Type"/>
+<xsd:element minOccurs="0" name="RequestChannel" type="Channel_Type"/>
+<xsd:element name="MessageTime" type="MsgTimestamp_Type"/>
+<xsd:element minOccurs="0" name="MessageVersion" type="MsgVer_Type"/>
+<xsd:element name="Partner" type="Partner_Type"/>
+<xsd:element minOccurs="0" name="AuthorizationToken" type="Token_Type"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="ResponseContext_Type">
+<xsd:sequence>
+<xsd:element name="StatusCode" type="StatusCode_Type"/>
+<xsd:element minOccurs="0" name="StatusDesc" type="StatusDesc_Type"/>
+<xsd:element name="RequestID" type="RqID_Type"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:simpleType name="FileID_Type">
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="35"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="MessageTimestamp_Type">
+<xsd:restriction base="Timestamp_Type"/>
+</xsd:simpleType>
+<xsd:simpleType name="Timestamp_Type">
+<xsd:restriction base="xsd:string">
+<xsd:pattern value="(\p{Nd}{4}-\p{Nd}{2}-\p{Nd}{2}T\p{Nd}{2}:\p{Nd}{2}:\p{Nd}{2})|(\p{Nd}{4}-\p{Nd}{2}-\p{Nd}{2}T\p{Nd}{2}:\p{Nd}{2}:\p{Nd}{2}.\p{Nd}{3}Z)"/>
+<!--  2014-10-30T15:12:35 OR 2014-10-30T15:12:35.000Z  -->
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="PhysicalAccount_Type">
+<xsd:restriction base="xsd:string"/>
+</xsd:simpleType>
+<xsd:simpleType name="FileType_Type">
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="TXT"/>
+<xsd:enumeration value="GZIP"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="FileName_Type">
+<xsd:restriction base="xsd:string"/>
+</xsd:simpleType>
+<xsd:simpleType name="AttachmentID_Type">
+<xsd:restriction base="xsd:string"/>
+</xsd:simpleType>
+<xsd:simpleType name="RqID_Type">
+<xsd:restriction base="xsd:string">
+<xsd:minLength value="36"/>
+<xsd:maxLength value="36"/>
+<xsd:pattern value="[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="SrvcName_Type">
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="MarketplaceSettlementFeedback"/>
+<xsd:enumeration value="LoyaltyPointsReport"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="Desc_Type">
+<xsd:restriction base="xsd:string"> </xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="MsgTimestamp_Type">
+<xsd:restriction base="Timestamp_Type"/>
+</xsd:simpleType>
+<xsd:simpleType name="MsgVer_Type">
+<xsd:restriction base="xsd:string"/>
+</xsd:simpleType>
+<xsd:simpleType name="Channel_Type">
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="SYSTEM"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="Partner_Type">
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="ARB"/>
+<xsd:enumeration value="FINTECH_WALLET"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="IPAddr_Type">
+<xsd:restriction base="xsd:string"/>
+</xsd:simpleType>
+<xsd:simpleType name="Token_Type">
+<xsd:restriction base="xsd:string"/>
+</xsd:simpleType>
+<xsd:simpleType name="Code_Type">
+<xsd:restriction base="xsd:string"/>
+</xsd:simpleType>
+<xsd:simpleType name="StatusCode_Type">
+<xsd:restriction base="Code_Type">
+<xsd:minLength value="7"/>
+<xsd:maxLength value="7"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="StatusDesc_Type">
+<xsd:restriction base="xsd:string"/>
+</xsd:simpleType>
+</xsd:schema>
+</wsdl:types>
+
+
+<wsdl:message name="FileUploadRequest">
+<wsdl:part element="tns:FileUploadRequest" name="FileUploadRequest"> </wsdl:part>
+</wsdl:message>
+<wsdl:message name="ResponseContext">
+<wsdl:part element="tns:ResponseContext" name="ResponseContext"> </wsdl:part>
+</wsdl:message>
+
+
+<wsdl:portType name="FileUploadPort">
+<wsdl:operation name="FileUpload">
+<wsdl:input message="tns:FileUploadRequest" name="FileUploadRequest"> </wsdl:input>
+<wsdl:output message="tns:ResponseContext" name="ResponseContext"> </wsdl:output>
+</wsdl:operation>
+</wsdl:portType>
+
+
+<wsdl:binding name="FileUploadPortSoap11" type="tns:FileUploadPort">
+<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+<wsdl:operation name="FileUpload">
+<soap:operation soapAction=""/>
+
+<wsdl:input name="FileUploadRequest">
+<soap:body use="literal"/>
+</wsdl:input>
+
+<wsdl:output name="ResponseContext">
+<soap:body use="literal"/>
+</wsdl:output>
+
+</wsdl:operation>
+</wsdl:binding>
+
+
+<wsdl:service name="FileUploadPortService">
+<wsdl:port binding="tns:FileUploadPortSoap11" name="FileUploadPortSoap11">
+<soap:address location="http://localhost:9090/ws"/>
+</wsdl:port>
+</wsdl:service>
+</wsdl:definitions>

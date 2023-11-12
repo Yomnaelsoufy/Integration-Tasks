@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://infotech.com" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:ibmSchExtn="http://www.ibm.com/schema/extensions" xmlns:impl="http://infotech.com" xmlns:intf="http://infotech.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <element ibmSchExtn:docRoot="true" name="removeBeneficiary">
+    <complexType>
+     <sequence>
+      <element name="RequestID" type="string"/>
+      <element name="ProspectID" type="string"/>
+      <element name="RequestType" type="string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element ibmSchExtn:docRoot="true" name="removeBeneficiaryResponse">
+    <complexType>
+     <sequence>
+      <element name="removeBeneficiaryReturn" type="string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element ibmSchExtn:docRoot="true" name="screeningForCOB">
+    <complexType>
+     <sequence>
+      <element name="RequestID" type="string"/>
+      <element name="prospecttype" type="string"/>
+      <element name="prospectID" type="string"/>
+      <element name="prospectname" type="string"/>
+      <element name="countryofnationality" type="string"/>
+      <element name="prospectidentitynumber" type="string"/>
+      <element name="dateofbirthincorporation" type="string"/>
+      <element name="countryofresidence" type="string"/>
+      <element name="Country" type="string"/>
+      <element name="Relationship" type="string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element ibmSchExtn:docRoot="true" name="screeningForCOBResponse">
+    <complexType>
+     <sequence>
+      <element name="screeningForCOBReturn" type="string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element ibmSchExtn:docRoot="true" name="screeningForBeneficiary">
+    <complexType>
+     <sequence>
+      <element name="RequestID" type="string"/>
+      <element name="prospecttype" type="string"/>
+      <element name="prospectID" type="string"/>
+      <element name="prospectname" type="string"/>
+      <element name="countryofnationality" type="string"/>
+      <element name="prospectidentitynumber" type="string"/>
+      <element name="dateofbirthincorporation" type="string"/>
+      <element name="countryofresidence" type="string"/>
+      <element name="Country" type="string"/>
+      <element name="Relationship" type="string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element ibmSchExtn:docRoot="true" name="screeningForBeneficiaryResponse">
+    <complexType>
+     <sequence>
+      <element name="screeningForBeneficiaryReturn" type="string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element ibmSchExtn:docRoot="true" name="searchListsForTransaction">
+    <complexType>
+     <sequence>
+      <element name="RequestID" type="string"/>
+      <element name="CustomerID" type="string"/>
+      <element name="TransactionID" type="string"/>
+      <element name="TransactionDateandTime" type="string"/>
+      <element name="Amount" type="string"/>
+      <element name="TransactionType" type="string"/>
+      <element name="RemitterName" type="string"/>
+      <element name="RemitterID" type="string"/>
+      <element name="BeneficiaryCIF" type="string"/>
+      <element name="BeneficiaryName" type="string"/>
+      <element name="BeneficiaryID" type="string"/>
+      <element name="CounterCountryCode" type="string"/>
+      <element name="Reason" type="string"/>
+      <element name="Relationship" type="string"/>
+      <element name="RemitterNationality" type="string"/>
+      <element name="RemitterDateOfBirth" type="string"/>
+      <element name="BeneficiaryNationality" type="string"/>
+      <element name="BeneficiaryDateOfBirth" type="string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element ibmSchExtn:docRoot="true" name="searchListsForTransactionResponse">
+    <complexType>
+     <sequence>
+      <element name="searchListsForTransactionReturn" type="string"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>

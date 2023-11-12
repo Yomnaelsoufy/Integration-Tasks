@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://infotech.com" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://infotech.com" xmlns:intf="http://infotech.com" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <wsdl:documentation>
+    <wsdl:appinfo source="WMQI_APPINFO">
+      <MRWSDLAppInfo imported="true">
+        <generatedXSD location="SearchEngine_InlineSchema1.xsd"/>
+        <binding hasEncoding="false" imported="true" name="SearchEngineSoapBinding" originalBindingStyle="document"/>
+      </MRWSDLAppInfo>
+    </wsdl:appinfo>
+  </wsdl:documentation>
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  
+   <schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://infotech.com" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:ibmSchExtn="http://www.ibm.com/schema/extensions" xmlns:impl="http://infotech.com" xmlns:intf="http://infotech.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <element ibmSchExtn:docRoot="true" name="removeBeneficiary">
+    <complexType>
+     <sequence>
+      <element name="RequestID" type="string"/>
+      <element name="ProspectID" type="string"/>
+      <element name="RequestType" type="string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element ibmSchExtn:docRoot="true" name="removeBeneficiaryResponse">
+    <complexType>
+     <sequence>
+      <element name="removeBeneficiaryReturn" type="string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element ibmSchExtn:docRoot="true" name="screeningForCOB">
+    <complexType>
+     <sequence>
+      <element name="RequestID" type="string"/>
+      <element name="prospecttype" type="string"/>
+      <element name="prospectID" type="string"/>
+      <element name="prospectname" type="string"/>
+      <element name="countryofnationality" type="string"/>
+      <element name="prospectidentitynumber" type="string"/>
+      <element name="dateofbirthincorporation" type="string"/>
+      <element name="countryofresidence" type="string"/>
+      <element name="Country" type="string"/>
+      <element name="Relationship" type="string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element ibmSchExtn:docRoot="true" name="screeningForCOBResponse">
+    <complexType>
+     <sequence>
+      <element name="screeningForCOBReturn" type="string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element ibmSchExtn:docRoot="true" name="screeningForBeneficiary">
+    <complexType>
+     <sequence>
+      <element name="RequestID" type="string"/>
+      <element name="prospecttype" type="string"/>
+      <element name="prospectID" type="string"/>
+      <element name="prospectname" type="string"/>
+      <element name="countryofnationality" type="string"/>
+      <element name="prospectidentitynumber" type="string"/>
+      <element name="dateofbirthincorporation" type="string"/>
+      <element name="countryofresidence" type="string"/>
+      <element name="Country" type="string"/>
+      <element name="Relationship" type="string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element ibmSchExtn:docRoot="true" name="screeningForBeneficiaryResponse">
+    <complexType>
+     <sequence>
+      <element name="screeningForBeneficiaryReturn" type="string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element ibmSchExtn:docRoot="true" name="searchListsForTransaction">
+    <complexType>
+     <sequence>
+      <element name="RequestID" type="string"/>
+      <element name="CustomerID" type="string"/>
+      <element name="TransactionID" type="string"/>
+      <element name="TransactionDateandTime" type="string"/>
+      <element name="Amount" type="string"/>
+      <element name="TransactionType" type="string"/>
+      <element name="RemitterName" type="string"/>
+      <element name="RemitterID" type="string"/>
+      <element name="BeneficiaryCIF" type="string"/>
+      <element name="BeneficiaryName" type="string"/>
+      <element name="BeneficiaryID" type="string"/>
+      <element name="CounterCountryCode" type="string"/>
+      <element name="Reason" type="string"/>
+      <element name="Relationship" type="string"/>
+      <element name="RemitterNationality" type="string"/>
+      <element name="RemitterDateOfBirth" type="string"/>
+      <element name="BeneficiaryNationality" type="string"/>
+      <element name="BeneficiaryDateOfBirth" type="string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element ibmSchExtn:docRoot="true" name="searchListsForTransactionResponse">
+    <complexType>
+     <sequence>
+      <element name="searchListsForTransactionReturn" type="string"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+
+    </wsdl:types>
+
+   <wsdl:message name="removeBeneficiaryResponse">
+
+      <wsdl:part element="impl:removeBeneficiaryResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="screeningForCOBResponse">
+
+      <wsdl:part element="impl:screeningForCOBResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="screeningForBeneficiaryResponse">
+
+      <wsdl:part element="impl:screeningForBeneficiaryResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="searchListsForTransactionResponse">
+
+      <wsdl:part element="impl:searchListsForTransactionResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="removeBeneficiaryRequest">
+
+      <wsdl:part element="impl:removeBeneficiary" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="screeningForCOBRequest">
+
+      <wsdl:part element="impl:screeningForCOB" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="screeningForBeneficiaryRequest">
+
+      <wsdl:part element="impl:screeningForBeneficiary" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="searchListsForTransactionRequest">
+
+      <wsdl:part element="impl:searchListsForTransaction" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="SearchEngine">
+
+      <wsdl:operation name="removeBeneficiary">
+
+         <wsdl:input message="impl:removeBeneficiaryRequest" name="removeBeneficiaryRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:removeBeneficiaryResponse" name="removeBeneficiaryResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="screeningForCOB">
+
+         <wsdl:input message="impl:screeningForCOBRequest" name="screeningForCOBRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:screeningForCOBResponse" name="screeningForCOBResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="screeningForBeneficiary">
+
+         <wsdl:input message="impl:screeningForBeneficiaryRequest" name="screeningForBeneficiaryRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:screeningForBeneficiaryResponse" name="screeningForBeneficiaryResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="searchListsForTransaction">
+
+         <wsdl:input message="impl:searchListsForTransactionRequest" name="searchListsForTransactionRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:searchListsForTransactionResponse" name="searchListsForTransactionResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="SearchEngineSoapBinding" type="impl:SearchEngine">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="removeBeneficiary">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="removeBeneficiaryRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="removeBeneficiaryResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="screeningForCOB">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="screeningForCOBRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="screeningForCOBResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="screeningForBeneficiary">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="screeningForBeneficiaryRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="screeningForBeneficiaryResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="searchListsForTransaction">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="searchListsForTransactionRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="searchListsForTransactionResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="SearchEngineService">
+
+      <wsdl:port binding="impl:SearchEngineSoapBinding" name="SearchEngine">
+
+         <wsdlsoap:address location="http://localhost:8080/RajhiPaymemts/services/SearchEngine"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>
