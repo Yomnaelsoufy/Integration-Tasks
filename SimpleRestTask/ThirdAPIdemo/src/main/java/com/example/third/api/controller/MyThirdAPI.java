@@ -20,14 +20,14 @@ public class MyThirdAPI {
         status.put("code", "I000000");
         status.put("details", "Success");
         List<Map<String, Object>> subErrors = new ArrayList<>();
-        Map<String, Object> subError = new HashMap<>();
-        subError.put("code", "string");
-        subError.put("details", "string");
-        subErrors.add(subError);
-        status.put("subErrors", subErrors);
+        // Map<String, Object> subError = new HashMap<>();
+        // subError.put("code", "string");
+        // subError.put("details", "string");
+        // subErrors.add(subError);
+        // status.put("subErrors", subErrors);
         header.put("status", status);
         Map<String, Object> response = new HashMap<>();
-        response.put("data", data);
+        response.put("data", "data");
         response.put("header", header);
         return ResponseEntity.ok(response);
     }

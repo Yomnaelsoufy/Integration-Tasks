@@ -1,0 +1,6 @@
+- route:
+    nodePrefixId: route-4a3
+    id: route-f181
+    from:
+      uri: spring-ws
+      id: from-236f
