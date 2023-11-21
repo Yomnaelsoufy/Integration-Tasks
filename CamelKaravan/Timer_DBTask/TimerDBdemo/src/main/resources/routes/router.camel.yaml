@@ -1,0 +1,16 @@
+- route:
+    nodePrefixId: route-4d3
+    id: route-4b3f
+    from:
+      uri: timer
+      id: from-c2f8
+      parameters:
+        timerName: timer
+        period: 10000
+      steps:
+        - log:
+            message: Saving in DB...
+            id: log-638c
+        - process:
+            ref: process
+            id: process-9ba1
