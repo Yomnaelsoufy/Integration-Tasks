@@ -1,0 +1,4 @@
+09:43:22.577 [http-nio-8082-exec-3] INFO  MyThirdAPI - Received request for ThirdAPI
+09:43:22.577 [http-nio-8082-exec-3] INFO  MyThirdAPI - Request Body: {isTahakookVerified=true, newMobileNumber=+966568472298, poi={poiNumber=107c9448994, poiType=IQA}}
+09:43:22.578 [http-nio-8082-exec-3] INFO  MyThirdAPI - Sending response for ThirdAPI
+09:43:22.578 [http-nio-8082-exec-3] INFO  MyThirdAPI - Response Body: {data=data, header={requestId=3940396424452, status={code=I000000, details=Success}}}

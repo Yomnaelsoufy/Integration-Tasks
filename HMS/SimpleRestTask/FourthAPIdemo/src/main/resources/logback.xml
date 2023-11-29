@@ -1,0 +1,30 @@
+<configuration>
+
+    <!-- Appender for Console -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Set the root logger level to INFO and attach the console appender -->
+    <root level="info">
+        <appender-ref ref="CONSOLE" />
+    </root>
+
+    <!-- Logger for com.example.third.api.controller.MyThirdAPI -->
+    <logger name="com.example.fourth.api.router.MyFourthAPI" level="info">
+        <appender-ref ref="FOURTH_API_FILE" />
+    </logger>
+
+    <!-- Appender for ThirdAPI logs -->
+    <appender name="FOURTH_API_FILE" class="ch.qos.logback.core.FileAppender">
+        <file>/logs/dump.log</file>
+        <append>true</append>
+        <encoder>
+            <!-- Use %logger{0} to include only the class name without the package -->
+            <pattern>%d{HH:mm:ss.SSS} %logger{0} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+</configuration>
